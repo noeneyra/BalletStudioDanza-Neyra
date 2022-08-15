@@ -296,6 +296,12 @@
 
 /* Pestaña clases*/
 
+
+.gradienteRosa {
+    background-image: linear-gradient(to bottom, #FFFFFF , #ed1e782d);
+}
+
+
 #bloqueClasesUno {
     display: grid;
     grid-template-areas: 
@@ -525,7 +531,7 @@
 }
  
 .fondoDocentes {
-    background-color: #ed1e7825;
+    background-image: linear-gradient(to right, #FFFFFF , #ed1e7825);
     padding-bottom: 2%;
 }
 
@@ -657,6 +663,10 @@
 }
 
 /*Pestaña Preguntas Frecuentes*/
+
+.gradienteVerticalRosa {
+    background-image: linear-gradient(to right, #FFFFFF , #ed1e7825);
+}
 
 #gridPreguntas {
     display:grid;
