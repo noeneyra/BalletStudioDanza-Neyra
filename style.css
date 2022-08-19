@@ -4,7 +4,7 @@
     display: inline;
 }
 
-/*Index*/
+/*Index Header Rosa y Pestañas de Div*/
 .tamañoLogo{
     display: inline;
     width: 50%;
@@ -17,7 +17,7 @@
     grid-template-areas: 
     "headerRosa headerRosa headerRosa headerRosa headerRosa headerRosa headerRosa"
     "pestañaHome pestañaClases pestañaHorarios pestañaInscripciones pestañaDocentes pestañaGaleria pestañaPreguntas ";
-    grid-template-rows: 0,8fr 1fr;
+    grid-template-rows:1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -77,16 +77,15 @@
     align-items: flex-end;
 }
 
-.pestaña {
-    background-color: #000000;
-    font-family: 'Reem Kufi';
-    font-size: 1.5rem ;
-    color: #FFFFFF;
-    width: 100%;
-    position: relative;
-    display: inline;
-    text-align: center;
+/*Pestañas*/
+
+.nav {
+    background-color: #000000 ;
+    --bs-link-color:  #FFFFFF ;
+    --bs-link-hover-color:#ed1e79 ;   
+    
 }
+
 
 /*Destacado Index*/
 
@@ -145,8 +144,7 @@
 
 #verMas {
     grid-area: verMas;
-    border: solid 2px;
-    border-color: #FFFFFF;
+    border: solid 2px #FFFFFF;
     color: #FFFFFF;
     width: 33%;
     padding-top: 1.25rem;
@@ -164,6 +162,16 @@
 }
 
 /*Pestaña Ver Más*/
+
+.colorLinks {
+    --bs-link-color: #ec418b;
+    --bs-link-hover-color: #c40055;
+    padding-bottom: 2%;
+    font-family: 'Roboto Slab','Open Sans';
+    font-weight:400 ;
+    text-align: center;
+    font-size: 1.5rem;   
+}
 
 .verMasTexto {
     color: #000000;
@@ -286,13 +294,7 @@
 
 /* Títulos de Pestañas*/
 
-.tituloDePestañas {
-    color: #ed1e79;
-    font-family: 'Roboto Slab','Open Sans';
-    font-weight:800 ;
-    text-align: center;
-    font-size: 2.5rem;
-}
+
 
 /* Pestaña clases*/
 
@@ -301,6 +303,15 @@
     background-image: linear-gradient(to bottom, #FFFFFF , #ed1e782d);
 }
 
+.tituloDePestañas {
+    color: #ed1e79;
+    font-family: 'Roboto Slab','Open Sans';
+    font-weight:800 ;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 #bloqueClasesUno {
     display: grid;

@@ -14,37 +14,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>
         Ballet Studio Danza
     </title>
 </head>
 <body>
-    <div id="header">
+    <section>
         <div id="headerRosa">
             <div class="tamañoLogo"><img class="headerLogo" src="../Assets/balletstudiologo.png"></div>
             <div class="divEnteroHeader"><span class="headerFrase">¡Que nada detenga nuestra danza!</span></div>
         </div>
-        <div id="pestañaHome" class="fondoPestaña desktop">
-            <a class="pestaña" href="index.html">Home</a>
-        </div>
-        <div id="pestañaClases" class="fondoPestaña desktop">
-            <a class="pestaña" href="./Pages/clases.html">Clases</a>
-        </div>
-        <div id="pestañaHorarios" class="fondoPestaña desktop">
-            <a class="pestaña" href="./Pages/horarios.html">Horarios</a>   
-        </div>        
-        <div id="pestañaIncripciones" class="fondoPestaña desktop">
-            <a class="pestaña" href="./Pages/inscripciones.html">Inscripciones</a>
-        </div>
-        <div id="pestañaDocentes" class="fondoPestaña desktop">
-            <a class="pestaña" href="./Pages/docentes.html">Docentes</a>
-        </div>
-        <div id="pestañaGaleria" class="fondoPestaña desktop">
-            <a class="pestaña" href="./Pages/galeria.html">Galería</a>
-        </div>
-        <div id="pestañaPeguntas" class="fondoPestaña desktop">
-            <a class="pestaña" href="./Pages/Preguntas.html">Preguntas </a>
-        </div>
+    </section>
+    <section>
+        <nav class="nav nav-fill">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/clases.html">Clases</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/horarios.html">Horarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Pages/inscripciones.html">Inscripciones</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./Pages/docentes.html">Docentes</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./Pages/galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./Pages/preguntas.html">Preguntas</a>
+              </li>
+        </nav>
+    </section>
+    <section>
         <div class="fondoPestaña mobile">
             <span class="pestaña">Menu</span>
             <div class="dropdown-content">
@@ -71,7 +79,7 @@
                 </div>
             </div>
         </div> 
-    </div>   
+    </section>
     <div id="bannerIndex">
         <div id="destacadoBanner">DESTACADO</div></br>
         <div id="tituloBanner">INSCRIPCIONES ABIERTAS PARA EL CICLO ANUAL 2022</div></br>
@@ -110,7 +118,7 @@
                 TODO SOBRE NUESTRO ESTUDIO DE DANZA
             </p>
         </div>
-        <div class="indexTexto">
+        <div class="parrafoTexto">
             <div>
                 <P>
                     Ballet Studio Danza tiene como objetivo alcanzar la mejor versión de cada uno, tanto de alumnos como de maestros, 
@@ -151,6 +159,8 @@
             <p class="footerTexto" >Instagram</p>
         </footer>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
    
