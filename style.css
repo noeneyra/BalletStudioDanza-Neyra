@@ -145,7 +145,6 @@
 #verMas {
     grid-area: verMas;
     border: solid 2px #FFFFFF;
-    color: #FFFFFF;
     width: 33%;
     padding-top: 1.25rem;
     padding-bottom: 1.56rem;
@@ -188,7 +187,7 @@
 .BSD {
     font-family: 'Rozha One' ,'Open Sans';
     font-size: 80px;
-    background-image: url("../Assets/2022Banner.jpg");
+    background-image: url("./Assets/2022banner.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 500px !important;
@@ -560,7 +559,6 @@
 }
 
 .textoDocente {
-    text-align: middle;
     font-family: 'Roboto Slab','Open Sans';
     font-size: 150%;
     margin: 5%;
@@ -926,7 +924,7 @@ body{
 
     .BSD {
         font-size: 3rem;
-        background-image: url("../Assets/2022Banner.jpg");
+        background-image: url("./Assets/2022banner.jpg");
         background-size: cover;
         background-position: 10%;
         background-repeat: no-repeat;
