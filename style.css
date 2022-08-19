@@ -159,35 +159,30 @@
 
 .colorBlanco {
     color: #FFFFFF;
+    --bs-link-color: #FFFFFF;
+    --bs-link-hover-color: #c40055;
 }
 
 /*Pestaña Ver Más*/
-
-.colorLinks {
-    --bs-link-color: #ec418b;
-    --bs-link-hover-color: #c40055;
-    padding-bottom: 2%;
-    font-family: 'Roboto Slab','Open Sans';
-    font-weight:400 ;
-    text-align: center;
-    font-size: 1.5rem;   
-}
 
 .verMasTexto {
     color: #000000;
     font-family: 'Gothic A1','Open Sans' ; 
     font-size: 25px;
     font-weight: 500;   
-    text-align: left ;
-    padding-left: 10%;
+    text-align: center ;
+    
 }
 
 .linksVerMas {
-    color: #ed1e79;
     font-family: 'Roboto Slab','Open Sans';
-    font-weight:800 ;
+    font-weight:400 ;
     text-align: center;
-    font-size: 150%;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-size: 1.8rem;
+    --bs-link-hover-color:#d3005b ; 
+    --bs-link-color: #ed1e79;
 }
 
 .BSD {
@@ -259,6 +254,15 @@
     color: #000000;
     font-family: 'Gothic A1','Open Sans';
     font-size: 25px;
+    font-weight: 500;   
+    text-align: center;
+    margin: 0% 2%;
+}
+
+.parrafoTexto {
+    color: #000000;
+    font-family: 'Gothic A1','Open Sans';
+    font-size: 1.5rem;
     font-weight: 500;   
     text-align: center;
     margin: 0% 2%;
@@ -450,7 +454,8 @@
     align-items: center;
     margin-left: 50%;
     transform: translateX(-50%);    
-    
+    --bs-link-hover-color:#d3005b ; 
+    --bs-link-color: #ed1e79;    
 }
 
 /*Pestaña Inscripciones*/
@@ -737,6 +742,17 @@ body{
 
     .mobile{
         display: initial;
+    }
+
+    .element.style {
+        background-color: #000000;
+        max-height: 0; 
+        overflow: hidden
+    }
+    
+    .dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;  
+        white-space: nowrap;
     }
 
     .tamañoLogo {
