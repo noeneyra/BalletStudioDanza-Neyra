@@ -8,10 +8,7 @@
 
 /*Conteiner Header Rosa*/
 
- .tamañoLogo{
-    width: 50%;
-    padding: 2% 0% 2% 0%;    
-} 
+
 
 .headerFrase {
     font-family: 'Roboto','Open Sans';
@@ -647,12 +644,6 @@ body{
     .desktop {
         display: none !important;
     }
-
-    .element.style {
-        background-color: #000000;
-        max-height: 0; 
-        overflow: hidden
-    }
     
     .dropdown-item {
         --bs-dropdown-link-color: #FFFFFF;  
@@ -661,9 +652,13 @@ body{
 
     /*Banner Destacado*/
 
+    .tamañoConteiner {
+        height: 300px;
+    }
+
     .textoDestacado {
     color: #FFFFFF;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-family: 'Roboto' ,'Open Sans';
     font-style: normal;
     padding-top: 2%;
@@ -674,16 +669,11 @@ body{
 
     }
 
-    .tamañoConteiner {
-        height: 250px;
-    }
-
     .buttonVerMas {
-        font-size: 1rem;
         border: solid 1px #FFFFFF;
         width: 35%;
-        padding-top: 0.2rem;
-        padding-bottom: 0.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         font-size: 0.8rem;
         --bs-link-color: #FFFFFF;
         --bs-link-hover-color: #c40055;
@@ -691,10 +681,11 @@ body{
 
     .tamañoLogo {
         margin-left: 50%;
-        transform: translateX(-55%);
+        transform: translateX(-50%);
         margin-top: 5%;
         height: 80%;
         width: 70%;
+        padding-bottom: 2%;
     }
 
     .conteiner {
@@ -704,8 +695,9 @@ body{
     .headerFrase{
         font-size: 1rem;
         text-align: center;
-        padding-top: 0%;
+        padding-top: 2%;
         padding-bottom: 2%; 
+
     }
 
     .fondoPestaña{
@@ -764,6 +756,17 @@ body{
         text-align: center;
         font-size: 1.25rem;
     }
+
+    .tamañoIcon {
+        width: 7%;
+    }
+
+    .footer {
+        font-family: 'Gothic A1','Open Sans';
+        font-size: 1rem;
+        list-style-type: none;
+        padding-left: 2%;
+    }
    
     /*Pestaña ver más Mobile*/
 
@@ -796,400 +799,445 @@ body{
 
     /* Pestaña clases*/
 
-#bloqueClasesUno {
-    display: grid;
-    width: 90%;
-    grid-template-areas: 
-    "imagenClaseUno"
-    "textoClaseUno"
-    "imagenClaseDos"
-    "textoClaseDos"
-    "imagenClaseTres"
-    "textoClaseTres";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.2fr 0.5fr 0.16fr 0.8fr 0.001fr;
-      
-}
-
-.tamañoClases{
-    width: 95%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-#imagenClaseUno {
-    grid-area: imagenClaseUno;   
-}
-
-#imagenClaseDos {
-    grid-area: imagenClaseDos;
-}
-
-#imagenClaseTres {
-    grid-area: imagenClaseTres;
-
-}
-
-#textoClaseUno {
-    grid-area: textoClaseUno;   
-}
-
-#textoClaseDos {
-    grid-area: textoClaseDos;
-}
-
-#textoClaseTres {
-    grid-area: textoClaseTres;
-} 
-
-.tituloDeClases {
-    font-size: 1.5rem;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.edadesDeClases {
-    font-size: 1.3rem;
-    margin-top: 1%;
-    margin-bottom: 5%;
-}
-
-#bloqueClasesDos {
-    display: grid;
-    width: 90%;
-    grid-template-areas: 
-    "imagenClaseDosUno"
-    "textoClaseDosUno"
-    "imagenClaseDosDos"
-    "textoClaseDosDos" 
-    "imagenClaseDosTres"
-    "textoClaseDosTres" ;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.8fr 0.2fr 0.5fr 0.16fr 0.25fr 0.12fr;
-    
-}
-
-#imagenClaseDosUno {
-    grid-area: imagenClaseDosUno;   
-}
-
-#imagenClaseDosDos {
-    grid-area: imagenClaseDosDos;
-}
-
-#imagenClaseDosTres {
-    grid-area: imagenClaseDosTres;
-}
-
-#textoClaseDosUno {
-    grid-area: textoClaseDosUno;
-}
-
-#textoClaseDosDos {
-    grid-area: textoClaseDosDos;
-}
-
-#textoClaseDosTres {
-    grid-area: textoClaseDosTres;
-} 
-
-.tituloDeClasesMobile {
-    font-size: 1.3rem;
-    margin-top: 1%;
-    margin-bottom: 5%;
-
-}
-
-#bloqueClasesTres {
-    display: grid;
-    width: 90%;
-    grid-template-areas: 
-    "imagenClaseTresUno "
-    "textoClaseTresUno"
-    "imagenClaseTresDos"
-    "textoClaseTresDos" ;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 0.2fr 0.5fr 0.016fr;
-}
-
-#imagenClaseTresUno {
-    grid-area: imagenClaseTresUno;   
-}
-
-#imagenClaseTresDos {
-    grid-area: imagenClaseTresDos;
-}
-
-#textoClaseTresUno {
-    grid-area: textoClaseTresUno;
-    
-}
-
-  
-
-/*Button Centrado Mobile*/
-
-.buttonCentrado{
-    font-size: 1rem;
-    margin-bottom: 8%;
-    margin-top: 2%;
-    padding-top: 0.5rem;    
-    padding-bottom: 0.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    
-}    
-
-/* Pestaña Inscripciones Mobile*/
-
-#gridInscripciones {
-    display:grid;
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-40%);
-    grid-template-areas: 
-        "iconWp nameWp"
-        "iconEmail nameEmail"
-        "iconInstagram nameInstagram"
-        "iconWeb nameWeb";
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-columns: 0.2fr 1.5fr;  
-    align-content: center;  
-    margin-top: 2%;
-    margin-bottom: 3%;
-    margin-left: 45%;
-}
-
-#iconWp{
-    grid-area: iconWp;
-}
-
-#iconEmail{
-    grid-area: iconEmail;
-}
-
-#iconInstagram{
-    grid-area: iconInstagram;
-}
-
-#iconWeb{
-    grid-area: iconWeb;
-}
-
-#nameWp{
-    grid-area: nameWp;
-}
-
-#nameEmail{
-    grid-area: nameEmail;
-}
-
-#nameInstagram{
-    grid-area: nameInstagram;
-}
-
-#nameWeb{
-    grid-area: nameWeb;
-}
-
-.tamañoIconos{
-    width: 75%;
-}
-
-.comunicacion {
-    font-size: 0.9rem;
-    font-weight: 600 ;
-    display: block;        
-}
- 
-/*Form Mobile*/
-
-.form {
-    font-weight: 800 ;
-    font-size: 1rem;
-    margin-top: 10%;
-    margin-bottom: 20%;
-          
-}
-
-.sizeInput {
-    width: 2.2rem;
-    padding: 0.6rem 8rem;
-    box-sizing: border-box;
-    margin-bottom: 20%;
-    
-}
-
-.sizeInputMensaje {
-    width: 100%;
-    padding: 1rem 1rem 3rem;
-    box-sizing: border-box;
-    margin-bottom: 2%;
-}
-
-.alineacionForm {
-    margin-left: 50%;
-    transform: translateX(-60%);
-    padding-left: 10%;
-    align-content: center;
-    justify-content: center;
-    margin-top: 5%;
-    
-}
-
-/*Pestañas Docentes Mobile*/
-
-#gridDocente {
-    display:grid;
-    grid-template-areas: 
-        "photo" 
-        "texto"
-        "photo"
-        "texto" 
-        "photo"
-        "texto";
-    grid-template-columns:1fr; 
-    grid-template-rows: 2fr;
-    display: inline;    
-    margin-top: 2%;
-    margin-bottom: 3%; 
-    
-}
-
-#photo {
-    grid-area: photo;
-}
-
-#texto {
-    grid-area: texto;
-}
-
-.alineaciónDocente {
-    display: block;
-    margin-right: 5%;
-    
-}
-
-.nombreDocente {
-    font-size: 1.25rem;
-    margin: 1%;
-    font-weight: 800;    
-}
-
-.imagenDocente {
-    margin-left: 2%;
-}
-
-.textoDocente {
-    font-size: 1rem;
-    margin-bottom: 2%;
-    
-}
-
-/*Preguntas*/
-
-#gridPreguntas {
-    grid-template-columns: 1fr;
-    margin-right: 2%;
-    
-}
-
-#textoPreguntas {
-    grid-area: textoPreguntas;
-    padding-top: 2%;
-    margin-left: 5%;
+    #bloqueClasesUno {
+        display: grid;
+        width: 90%;
+        grid-template-areas: 
+        "imagenClaseUno"
+        "textoClaseUno"
+        "imagenClaseDos"
+        "textoClaseDos"
+        "imagenClaseTres"
+        "textoClaseTres";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.2fr 0.5fr 0.16fr 0.8fr 0.001fr;
         
-}
+    }
 
-#imagenPreguntas {
-    grid-area: imagenPreguntas;
-    padding-bottom: 8%;
-    padding-left: 5%;
+    .tamañoClases{
+        width: 95%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    #imagenClaseUno {
+        grid-area: imagenClaseUno;   
+    }
+
+    #imagenClaseDos {
+        grid-area: imagenClaseDos;
+    }
+
+    #imagenClaseTres {
+        grid-area: imagenClaseTres;
+
+    }
+
+    #textoClaseUno {
+        grid-area: textoClaseUno;   
+    }
+
+    #textoClaseDos {
+        grid-area: textoClaseDos;
+    }
+
+    #textoClaseTres {
+        grid-area: textoClaseTres;
+    } 
+
+    .tituloDeClases {
+        font-size: 1.5rem;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .edadesDeClases {
+        font-size: 1.3rem;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    #bloqueClasesDos {
+        display: grid;
+        width: 90%;
+        grid-template-areas: 
+        "imagenClaseDosUno"
+        "textoClaseDosUno"
+        "imagenClaseDosDos"
+        "textoClaseDosDos" 
+        "imagenClaseDosTres"
+        "textoClaseDosTres" ;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 0.2fr 0.5fr 0.16fr 0.25fr 0.12fr;
         
+    }
+
+    #imagenClaseDosUno {
+        grid-area: imagenClaseDosUno;   
+    }
+
+    #imagenClaseDosDos {
+        grid-area: imagenClaseDosDos;
+    }
+
+    #imagenClaseDosTres {
+        grid-area: imagenClaseDosTres;
+    }
+
+    #textoClaseDosUno {
+        grid-area: textoClaseDosUno;
+    }
+
+    #textoClaseDosDos {
+        grid-area: textoClaseDosDos;
+    }
+
+    #textoClaseDosTres {
+        grid-area: textoClaseDosTres;
+    } 
+
+    .tituloDeClasesMobile {
+        font-size: 1.3rem;
+        margin-top: 1%;
+        margin-bottom: 5%;
+
+    }
+
+    #bloqueClasesTres {
+        display: grid;
+        width: 90%;
+        grid-template-areas: 
+        "imagenClaseTresUno "
+        "textoClaseTresUno"
+        "imagenClaseTresDos"
+        "textoClaseTresDos" ;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.5fr 0.016fr;
+    }
+
+    #imagenClaseTresUno {
+        grid-area: imagenClaseTresUno;   
+    }
+
+    #imagenClaseTresDos {
+        grid-area: imagenClaseTresDos;
+    }
+
+    #textoClaseTresUno {
+        grid-area: textoClaseTresUno;
+        
+    }
+
+    
+
+    /*Button Centrado Mobile*/
+
+    .buttonCentrado{
+        font-size: 1rem;
+        margin-bottom: 8%;
+        margin-top: 2%;
+        padding-top: 0.5rem;    
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+    }    
+
+    /* Pestaña Inscripciones Mobile*/
+
+    #gridInscripciones {
+        display:grid;
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-40%);
+        grid-template-areas: 
+            "iconWp nameWp"
+            "iconEmail nameEmail"
+            "iconInstagram nameInstagram"
+            "iconWeb nameWeb";
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 0.2fr 1.5fr;  
+        align-content: center;  
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin-left: 45%;
+    }
+
+    #iconWp{
+        grid-area: iconWp;
+    }
+
+    #iconEmail{
+        grid-area: iconEmail;
+    }
+
+    #iconInstagram{
+        grid-area: iconInstagram;
+    }
+
+    #iconWeb{
+        grid-area: iconWeb;
+    }
+
+    #nameWp{
+        grid-area: nameWp;
+    }
+
+    #nameEmail{
+        grid-area: nameEmail;
+    }
+
+    #nameInstagram{
+        grid-area: nameInstagram;
+    }
+
+    #nameWeb{
+        grid-area: nameWeb;
+    }
+
+    .tamañoIconos{
+        width: 75%;
+    }
+
+    .comunicacion {
+        font-size: 0.9rem;
+        font-weight: 600 ;
+        display: block;        
+    }
+    
+    /*Form Mobile*/
+
+    .form {
+        font-weight: 800 ;
+        font-size: 1rem;
+        margin-top: 10%;
+        margin-bottom: 20%;
+            
+    }
+
+    .sizeInput {
+        width: 2.2rem;
+        padding: 0.6rem 8rem;
+        box-sizing: border-box;
+        margin-bottom: 20%;
+        
+    }
+
+    .sizeInputMensaje {
+        width: 100%;
+        padding: 1rem 1rem 3rem;
+        box-sizing: border-box;
+        margin-bottom: 2%;
+    }
+
+    .alineacionForm {
+        margin-left: 50%;
+        transform: translateX(-60%);
+        padding-left: 10%;
+        align-content: center;
+        justify-content: center;
+        margin-top: 5%;
+        
+    }
+
+    /*Pestañas Docentes Mobile*/
+
+    #gridDocente {
+        display:grid;
+        grid-template-areas: 
+            "photo" 
+            "texto"
+            "photo"
+            "texto" 
+            "photo"
+            "texto";
+        grid-template-columns:1fr; 
+        grid-template-rows: 2fr;
+        display: inline;    
+        margin-top: 2%;
+        margin-bottom: 3%; 
+        
+    }
+
+    #photo {
+        grid-area: photo;
+    }
+
+    #texto {
+        grid-area: texto;
+    }
+
+    .alineaciónDocente {
+        display: block;
+        margin-right: 5%;
+        
+    }
+
+    .nombreDocente {
+        font-size: 1.25rem;
+        margin: 1%;
+        font-weight: 800;    
+    }
+
+    .imagenDocente {
+        margin-left: 2%;
+    }
+
+    .textoDocente {
+        font-size: 1rem;
+        margin-bottom: 2%;
+        
+    }
+
+    /*Preguntas*/
+
+    #gridPreguntas {
+        grid-template-columns: 1fr;
+        margin-right: 2%;
+        
+    }
+
+    #textoPreguntas {
+        grid-area: textoPreguntas;
+        padding-top: 2%;
+        margin-left: 5%;
+            
+    }
+
+    #imagenPreguntas {
+        grid-area: imagenPreguntas;
+        padding-bottom: 8%;
+        padding-left: 5%;
+            
+    }
+
+    .agrandarMobile {
+        padding-bottom: 5%;
+        padding-top: 80%;
+    }
+
+    #imagenPreguntas {
+        display: none;
+    }
+
+    .estiloPregunta {
+        font-size: 1rem;
+    }
+
+    .estiloRespuesta {
+        font-size: 1rem;
+    }
+
+    /*Pestaña Horarios*/
+
+    .grillaHorarios {
+        margin-left: 1%;    
+        margin-right: 1%;
+        width: 60%;
+        padding-right: 5%;
+    }
+
+    .tamañoGrillaMobile {
+        width: 80%;   
+        padding-right: 10%;
+        margin-right: 2%;
+    }
+
+    .salon {
+        text-align: center;
+        font-size: 0.8rem; 
+    }
+
+    .dias {
+        font-size: 0.7rem;
+        padding: 2%;    
+    }
+
+    .horarios {
+        font-size: 0.7rem;
+        padding: 1%;
+    }
+
+    .clases {
+        font-size: 0.62rem;    
+    }
+
+    /*Pestaña Galería Mobile*/
+
+    #gridGaleria {
+        display:grid;
+        width: 50%;
+        grid-template-areas: 
+        "photoDerecha"
+        "photoIzquierda"
+        "photoDerecha"
+        "photoIzquierda"
+        "photoDerecha"
+        "photoIzquierda"
+        "photoDerecha";
+        grid-template-rows:  200fr 200fr 200fr 200fr 200fr 200fr 200fr;
+        grid-template-columns: 1fr;    
+        display: block;
+    }
+
+    #photoDerecha {
+        grid-area: photoDerecha;   
+        width: 200%;
+    }
+
+    #photoIzquierda {
+        grid-area: photoIzquierda;    
+        width: 200%;
+    }
+
+
+
+
 }
 
-.agrandarMobile {
-    padding-bottom: 5%;
-    padding-top: 80%;
+@media (min-width: 601px) and (max-width:642px) {
+
+    .wrap {
+        padding-left: 0rem;
+    }
+   
 }
 
-#imagenPreguntas {
-    display: none;
+    
+@media (min-width: 601px) and (max-width: 768px) {
+
+    .tamañoLogo {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 5%;
+        height: 80%;
+        width: 70%;
+        padding-bottom: 2%;
+    }
+
+    .headerFrase{
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;  
+
+    }
+    
+    .tamañoConteiner {
+        height: 400px;
+    }
+
+    .textoDestacado {
+        font-size: 2rem;    
+        padding-bottom: 2%;
+    }
+    
+    .buttonVerMas {
+        font-size: 1.2rem;
+        border: solid 1px #FFFFFF;
+        width: 35%;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        --bs-link-color: #FFFFFF;
+        --bs-link-hover-color: #c40055;
+    }
 }
-
-.estiloPregunta {
-    font-size: 1rem;
-}
-
-.estiloRespuesta {
-    font-size: 1rem;
-}
-
-/*Pestaña Horarios*/
-
-.grillaHorarios {
-    margin-left: 1%;    
-    margin-right: 1%;
-    width: 60%;
-    padding-right: 5%;
-}
-
-.tamañoGrillaMobile {
-    width: 80%;   
-    padding-right: 10%;
-    margin-right: 2%;
-}
-
-.salon {
-    text-align: center;
-    font-size: 0.8rem; 
-}
-
-.dias {
-    font-size: 0.7rem;
-    padding: 2%;    
-}
-
-.horarios {
-    font-size: 0.7rem;
-    padding: 1%;
-}
-
-.clases {
-    font-size: 0.62rem;    
-}
-
-/*Pestaña Galería Mobile*/
-
-#gridGaleria {
-    display:grid;
-    width: 50%;
-    grid-template-areas: 
-    "photoDerecha"
-    "photoIzquierda"
-    "photoDerecha"
-    "photoIzquierda"
-    "photoDerecha"
-    "photoIzquierda"
-    "photoDerecha";
-    grid-template-rows:  200fr 200fr 200fr 200fr 200fr 200fr 200fr;
-    grid-template-columns: 1fr;    
-    display: block;
-}
-
-#photoDerecha {
-    grid-area: photoDerecha;   
-    width: 200%;
-}
-
-#photoIzquierda {
-    grid-area: photoIzquierda;    
-    width: 200%;
-}
-
-
-
-
-}
-
-
-
