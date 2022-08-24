@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--Establezco el tipo de documento-->
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <link rel="stylesheet" type="text/css" href="./style.css"/>
@@ -22,84 +22,79 @@
 </head>
 <body>
     <section>
-        <div id="headerRosa">
-            <div class="tamañoLogo"><img class="headerLogo" src="./Assets/balletstudiologo.png"></div>
-            <div class="divEnteroHeader"><span class="headerFrase">¡Que nada detenga nuestra danza!</span></div>
+        <div class="conteiner">
+            <div class="row bgRosa">
+                <div class="col-12"><img class="tamañoLogo" src="../Assets/balletstudiologo.png" alt=""></div>
+                <div class="col headerFrase">¡Que nada detenga nuestra danza!
+            </div>
         </div>
-    </section>
-    <section>
-        <nav class="nav nav-fill desktop desktop">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Pages/clases.html">Clases</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Pages/horarios.html">Horarios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Pages/inscripciones.html">Inscripciones</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="./Pages/docentes.html">Docentes</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="./Pages/galeria.html">Galería</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="./Pages/preguntas.html">Preguntas</a>
-              </li>
-        </nav>
+        <section>
+            <nav class="nav nav-fill desktop">
+                <a class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                </a>
+                <a class="nav-item">
+                    <a class="nav-link" href="./Pages/clases.html">Clases</a>
+                </a>
+                <a class="nav-item">
+                    <a class="nav-link" href="./Pages/horarios.html">Horarios</a>
+                </a>
+                <a class="nav-item">
+                    <a class="nav-link" href="./Pages/inscripciones.html">Inscripciones</a>
+                </a>
+                <a class="nav-item">
+                      <a class="nav-link" href="./Pages/docentes.html">Docentes</a>
+                </a>
+                <a class="nav-item">
+                      <a class="nav-link" href="./Pages/galeria.html">Galería</a>
+                </a>
+                <a class="nav-item">
+                      <a class="nav-link" href="./Pages/preguntas.html">Preguntas</a>
+                </a>
+            </nav>
+        </section>
     </section>
     <section>
         <div class="fondoPestaña mobile">
             <section>
-                <div class="dropdown bg-black">
-                    <a class="btn bg-black border-0 btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="dropdown navbar-collapse bg-black">
+                    <a class="btn bg-black w-100 border-0 btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Menú
                     </a>
-                    <ul class="dropdown-menu bg-black">
-                      <li><a class="dropdown-item" aria-current="page" href="./index.html">Home</a></li>
-                      <li><a class="dropdown-item" href="./Pages/clases.html">Clases</a></li>
-                      <li><a class="dropdown-item" href="./Pages/horarios.html">Horarios</a></li>
-                      <li><a class="dropdown-item" href="./Pages/inscripciones.html">Inscripciones</a></li>
-                      <li><a class="dropdown-item" href="./Pages/docentes.html">Docentes</a></li>
-                      <li><a class="dropdown-item" href="./Pages/galeria.html">Galería</a></li>
-                      <li><a class="dropdown-item" href="./Pages/preguntas.html">Preguntas</a></li>
+                    <ul class="dropdown-menu bg-black w-100 justify-content-center">
+                      <li><a class="dropdown-item text-center" aria-current="page" href="./index.html">Home</a></li>
+                      <li><a class="dropdown-item text-center" href="./Pages/clases.html">Clases</a></li>
+                      <li><a class="dropdown-item text-center" href="./Pages/horarios.html">Horarios</a></li>
+                      <li><a class="dropdown-item text-center" href="./Pages/inscripciones.html">Inscripciones</a></li>
+                      <li><a class="dropdown-item text-center" href="./Pages/docentes.html">Docentes</a></li>
+                      <li><a class="dropdown-item text-center" href="./Pages/galeria.html">Galería</a></li>
+                      <li><a class="dropdown-item text-center" href="./Pages/preguntas.html">Preguntas</a></li>
                     </ul>
                 </div>
             </section>
         </div> 
-    </section>
-    <div id="bannerIndex">
-        <div id="destacadoBanner">DESTACADO</div></br>
-        <div id="tituloBanner">INSCRIPCIONES ABIERTAS PARA EL CICLO ANUAL 2022</div></br>
-        <div id="propuestasBanner">Enterate de todas las propuestas</div><br>
-        <div id="verMas">
-            <div class="inline"><a class="colorBlanco" href="./Pages/ver-mas.html"> Leer Más -> </a><br></div>
-        </div>            
-    </div>        
-    <div>
-        <div id="Portada">
-            <div id="imagenPortada">
+    </section> 
+    <div class="conteiner bgBanner tamañoConteiner">
+        <div class="row">
+            <div class="col">
+                <div class="textoDestacado">DESTACADO</div>
+                <div class="textoDestacado text-center">INSCRIPCIONES ABIERTAS PARA EL CICLO ANUAL 2022</div>
+                <div class="textoDestacado">Enterate de todas las propuestas</div>
+                <div class="textoDestacado"><a class="buttonVerMas text-center" href="./Pages/ver-mas.html"> Leer Más -> </a></div>
+            </div>
+        </div>
+    </div> 
+    <div class="conteiner">
+        <div class="row">
+            <div class="col-12">
                 <img class="imagenCover" src="./Assets/bailarinas1.png" width="100%">
             </div>
-            <div id="textoPortada">
-                <div class="desktop">
-                    <p class="estiloTitulo">
-                        BALLET <br/>
-                        STUDIO <br/>
-                        DANZA 
-                    </p>                  
-                </div>
-                <div class="mobile">
-                    <p class="estiloTitulo">
-                        BALLET STUDIO DANZA 
-                    </p>
-                </div>
-                <p class="estiloSubtitulo">        
-                    Profesorados -  Preparación para Ingresos - Concursos - Seminarios  - Galas     
+            <div class="col-12">   
+                <p class="tituloIndex">
+                    BALLET STUDIO DANZA 
+                </p>
+                <p class="subtituloIndex">
+                    Profesorados -  Preparación para Ingresos - Concursos - Seminarios  - Galas 
                 </p>
             </div>
         </div>
@@ -112,9 +107,12 @@
         </div>
         <div class="parrafoTexto">
             <div>
-                <P>
+                <p>
                     Ballet Studio Danza tiene como objetivo alcanzar la mejor versión de cada uno, tanto de alumnos como de maestros, 
-                    valorando los procesos individuales así como también los de cada grupo. Fomenta la formación de un ambiente seguro y 
+                    valorando los procesos individuales así como también los de cada grupo. 
+                </p>      
+                <p>     
+                    Fomenta la formación de un ambiente seguro y 
                     de confianza en el cual los alumnos expresan sus sentimientos a través de la danza, haciendo que éstos se sientan libres 
                     y felices. A su vez la danza otorga y entrena herramientas tales como disciplina, coordinacción y memoria, que ayudará
                     a los alumnos en diferentes aspectos de la vida cotidiana.
@@ -135,7 +133,14 @@
             </br>
         </div>
     </div>
-    <div class="alineacion">
+    <footer class="bg-dark text-center text-white">
+        <div class="conteiner">
+            <div>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- <div class="alineacion">
         <ul class="datosDelEstudio">
             <li>BalletStudio Danza</li>
             <li>infoballetstudiodanza@gmail.com</li>
@@ -150,9 +155,9 @@
             <p class="footerTexto">Facebook</p>
             <p class="footerTexto" >Instagram</p>
         </footer>
-    </div>
+    </div> -->
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
    

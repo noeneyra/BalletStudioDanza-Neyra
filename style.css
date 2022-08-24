@@ -4,77 +4,24 @@
     display: inline;
 }
 
-/*Index Header Rosa y Pestañas de Div*/
-.tamañoLogo{
-    display: inline;
+/*Index*/
+
+/*Conteiner Header Rosa*/
+
+ .tamañoLogo{
     width: 50%;
-    padding-left: 30%; 
-    padding-top: 5%;    
-}
-
- #header {
-    display: grid;
-    grid-template-areas: 
-    "headerRosa headerRosa headerRosa headerRosa headerRosa headerRosa headerRosa"
-    "pestañaHome pestañaClases pestañaHorarios pestañaInscripciones pestañaDocentes pestañaGaleria pestañaPreguntas ";
-    grid-template-rows:1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-
-#pestañaHome {
-    grid-area: pestañaHome;
-}
-
-#pestañaClases {
-    grid-area: pestañaClases;
-}
-
-#pestañaHorarios {
-    grid-area: pestañaHorarios;
-}
-
-#pestañaInscripciones {
-    grid-area: pestañaInscripciones;
-}
-
-#pestañaDocentes {
-    grid-area: pestañaDocentes;
-}
-
-#pestañaGaleria {
-    grid-area: pestañaGaleria;
-}
-
-#pestañaPreguntas {
-    grid-area: pestañaPreguntas;
-}
-
-.fondoPestaña {
-    background-color: #000000;
-    padding: 5% 0% 5% 0% ;
-    text-align: center;
+    padding: 2% 0% 2% 0%;    
 } 
-
-
-/*Logo y Frase*/
-
-#headerRosa {
-    grid-area: headerRosa;
-    background-color: #ed1e782d;
-    left: 41px;
-    padding-top: 25px;
-    padding-left: 15px;
-    padding-bottom: 25px;
-}
-
 
 .headerFrase {
     font-family: 'Roboto','Open Sans';
     font-size: 1.2rem;
-    font-weight: 300 ; 
-    display: inline;
-    align-items: flex-end;
+    font-weight: 300 ;
+    padding-top: 6%;
+}
+
+.bgRosa {
+    background-color: #ed1e782d;
 }
 
 /*Pestañas*/
@@ -83,86 +30,47 @@
     background-color: #000000 ;
     --bs-link-color:  #FFFFFF ;
     --bs-link-hover-color:#ed1e79 ;   
-    
 }
 
+/*Banner Index*/
 
-/*Destacado Index*/
-
-#bannerIndex {
-    display: grid;
-    grid-template-areas: 
-    "destacadoBanner"
-    "tituloBanner"
-    "propuestasBanner"
-    "verMas";
-    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
-    grid-template-columns: 1fr;
+.bgBanner {
     background-image: url("./Assets/imgBanner.jpg") ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+}
+
+.tamañoConteiner {
+    height: 600px;
+}
+
+.textoDestacado {
+    color: #FFFFFF;
     font-family: 'Roboto' ,'Open Sans';
     font-style: normal;
-    color: #FFFFFF;
-
-}
-
-#destacadoBanner {
-    grid-area: destacadoBanner;
-    font-size: 2rem;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    }
 
-#tituloBanner {
-    grid-area: tituloBanner;
-    font-size: 3.5rem;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin:0% 2%;
-    font-weight: bold;
-    display: flex ;
-    justify-content: center;
-    align-items: center;    
-}
-
-#propuestasBanner {
-    grid-area: propuestasBanner;
-    font-size: 250%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#verMas {
-    grid-area: verMas;
-    border: solid 2px #FFFFFF;
-    width: 33%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.56rem;
-    margin-top: 2%;
-    margin-left: 33%;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.colorBlanco {
-    color: #FFFFFF;
+.buttonVerMas {
+    font-size: 1rem;
+    border: solid 1px #FFFFFF;
+    width: 35%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 0.8rem;
     --bs-link-color: #FFFFFF;
     --bs-link-hover-color: #c40055;
 }
 
-/*Pestaña Ver Más*/
+
+/*Pestaña Ver Más*/ 
 
 .verMasTexto {
     color: #000000;
@@ -200,7 +108,7 @@
 
 /*Portada Index*/
 
-#Portada {
+/* #Portada {
     display: grid;
     grid-template-areas: 
     "imagenPortada textoPortada";
@@ -214,17 +122,18 @@
 
 #textoPortada {
     grid-area: textoPortada;
-}
+    background-color: #FFFFFF;
+}*/
 
-.estiloTitulo {
+.tituloIndex {
     color: #ed1e79;
     font-size: 600%;
     font-family: 'Roboto Slab','Open Sans';
     font-weight: 900;
     padding-left: 5%;
-}
+} 
 
-.estiloSubtitulo {
+.subtituloIndex {
     font-family: 'Roboto Slab', serif ,'Open Sans';
     font-size: 250%;
     font-weight: 400 ;
@@ -249,15 +158,6 @@
     text-align: center;
 }
 
-.indexTexto {
-    color: #000000;
-    font-family: 'Gothic A1','Open Sans';
-    font-size: 25px;
-    font-weight: 500;   
-    text-align: center;
-    margin: 0% 2%;
-}
-
 .parrafoTexto {
     color: #000000;
     font-family: 'Gothic A1','Open Sans';
@@ -268,6 +168,7 @@
 }
 
 .datosDelEstudio {
+    background-color: #FFFFFF;
     font-family: 'Roboto Slab','Open Sans';
     font-weight: 500 ;
     line-height: 3;
@@ -275,6 +176,7 @@
     list-style: none;
     justify-content: center;
     padding-left: 0%;
+    margin-bottom: 0%;
 }
 
 .footer {
@@ -742,6 +644,10 @@ body{
         display: initial;
     }
 
+    .desktop {
+        display: none !important;
+    }
+
     .element.style {
         background-color: #000000;
         max-height: 0; 
@@ -753,85 +659,63 @@ body{
         white-space: nowrap;
     }
 
-    .tamañoLogo {
-        display: block;
-        width: 100%;
-        justify-content: center;
-        padding-left: 0%;
+    /*Banner Destacado*/
+
+    .textoDestacado {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-family: 'Roboto' ,'Open Sans';
+    font-style: normal;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
     }
 
-    .headerLogo{
-        width: 70%;
+    .tamañoConteiner {
+        height: 250px;
+    }
+
+    .buttonVerMas {
+        font-size: 1rem;
+        border: solid 1px #FFFFFF;
+        width: 35%;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        font-size: 0.8rem;
+        --bs-link-color: #FFFFFF;
+        --bs-link-hover-color: #c40055;
+    }
+
+    .tamañoLogo {
         margin-left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-55%);
+        margin-top: 5%;
+        height: 80%;
+        width: 70%;
+    }
+
+    .conteiner {
+        width: 100%;
     }
 
     .headerFrase{
-        font-size: 100%;
+        font-size: 1rem;
         text-align: center;
-    }
-    
-    .divEnteroHeader{
-        width: 100%;
-        display: block;
-    }
-
-    #header{
-        display: block;
-        background-color: #FFFFFF;
-    }
-
-    #headerRosa{
-        background-color: #ed1e782d;
-        display: block;
-    }
-
-    #pestañaPeguntas{
-        display: block;
-        width: 100%;
+        padding-top: 0%;
+        padding-bottom: 2%; 
     }
 
     .fondoPestaña{
         display: block;
         width: 100%;
-        padding: 2% 0% 2% 0% ;
+        padding: 0% ;
         text-align: center;
     }
 
-    .desktop {
-        display: none !important;
-    }
-
-    #destacadoBanner{
-        font-size: 1rem;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    #tituloBanner{
-        padding-top: 0%;
-        margin-bottom: 5%;
-        line-height: 2rem;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    #propuestasBanner{
-        padding-top: 0%;
-        font-size: 1.5rem;
-        margin-bottom: 5%;
-        margin-left: 2%;
-        text-align: center;
-
-    }
-
-    #verMas{
-        margin-top: 2%;
-        margin-bottom: 0%;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        font-size: 1rem;
-    }
+    /*Portada Index*/
     
     #Portada {
         display: grid;
@@ -842,62 +726,38 @@ body{
         grid-template-columns: 1fr;
     }
     
-    .estiloTitulo {
+    .tituloIndex {
         font-size: 2rem;
         font-weight: 900;
         padding-left: 5%;
-        margin-bottom: 1rem;
-        margin-top: 0.5rem;
-        
-    }
+        margin-top: 5%;
+    } 
     
-    .estiloSubtitulo {
-        font-size: 1rem;
+    .subtituloIndex {
+        font-size: 1.2rem;
         font-weight: 400 ;
         padding-left: 5%;
+        padding-right: 5%;
         margin-bottom: 5%;
-        line-height: 1.5rem;
-        
-    }
-     
-    #bannerIndex {
-        background-color: #ed1e782d;
-        grid-template-rows: 1fr;
     }
     
+    /*Cuerpo de Texto Index*/
+
     .indexTitulo {
         font-weight: 900 ;
         font-size: 2.5rem;
-        text-align: center;
-        margin: 0% 2% 0% 2%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     
-    .indexTexto {
-        font-size: 1rem;
-        font-weight: 400;   
-        text-align: center;
-        justify-content: center;
-        margin: 0% 5% 0% 5%;
-        
-    }
-
-    .desktop {
-        display: none;
-    }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        width: 100%;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-    
-
-    .fondoPestaña:hover .dropdown-content {
-        display: block;
-    }
+    .parrafoTexto {
+        color: #000000;
+        font-family: 'Gothic A1','Open Sans';
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: 5%;
+        margin-right: 5%; 
+    }   
 
     .tituloDePestañas {
         font-weight:800 ;
