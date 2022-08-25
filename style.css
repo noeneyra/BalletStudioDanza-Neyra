@@ -27,6 +27,11 @@
     --bs-link-hover-color:#ed1e79 ;   
 }
 
+.dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;  
+        white-space: nowrap;
+    }
+
 /*Banner Index*/
 
 .bgBanner {
@@ -619,7 +624,7 @@ body{
         white-space: nowrap;
     }
 
-    /*Banner Destacado*/
+    /*Banner*/
 
     .tamañoConteiner {
         height: 300px;
@@ -676,7 +681,7 @@ body{
         text-align: center;
     }
 
-    /*Portada Index*/
+    /*Portada*/
     
     #Portada {
         display: grid;
@@ -688,14 +693,14 @@ body{
     }
     
     .tituloIndex {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 900;
         padding-left: 5%;
         margin-top: 5%;
     } 
     
     .subtituloIndex {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 400 ;
         padding-left: 5%;
         padding-right: 5%;
@@ -736,7 +741,7 @@ body{
         padding-left: 2%;
     }
    
-    /*Pestaña ver más Mobile*/
+    /*Ver Más*/
 
     .verMasTexto {
         font-size: 1rem;
@@ -755,17 +760,18 @@ body{
 
     .BSD {
         font-size: 3rem;
-        background-image: url("./Assets/2022banner.jpg");
-        background-size: cover;
-        background-position: 10%;
+        background-image: url("./Assets/banner1.jpg");
+        background-size:cover ;
         background-repeat: no-repeat;
+        background-position: 45%;
         color:#FFFFFF ;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0%;
         
     }
 
-    /* Pestaña clases*/
+    /* Clases*/
 
     #bloqueClasesUno {
         display: grid;
@@ -910,7 +916,7 @@ body{
         
     }    
 
-    /* Pestaña Inscripciones Mobile*/
+    /* Pestaña Inscripciones*/
 
     #gridInscripciones {
         display:grid;
@@ -1007,7 +1013,7 @@ body{
         
     }
 
-    /*Pestañas Docentes Mobile*/
+    /*Pestañas Docentes*/
 
     #gridDocente {
         display:grid;
@@ -1056,7 +1062,7 @@ body{
         
     }
 
-    /*Preguntas*/
+    /*Pestaña Preguntas*/
 
     #gridPreguntas {
         grid-template-columns: 1fr;
@@ -1129,7 +1135,7 @@ body{
         font-size: 0.62rem;    
     }
 
-    /*Pestaña Galería Mobile*/
+    /*Pestaña Galería*/
 
     #gridGaleria {
         display:grid;
@@ -1176,7 +1182,7 @@ body{
     
 }
 
-    
+
 @media (min-width: 601px) and (max-width: 768px) {
 
     /*Index*/
@@ -1242,6 +1248,8 @@ body{
 
     .indexTitulo {
         font-size: 3rem;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     
     .parrafoTexto {
@@ -1257,6 +1265,43 @@ body{
     .tamañoIcon {
         width: 5%;
     }
+
+    /*Ver más*/
+
+    .tituloDePestañas {
+        font-weight:800 ;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .verMasTexto {
+        font-size: 1.2rem;
+        font-weight: 400;   
+        text-align: center;
+        justify-content: center;
+        margin: 0% 5% 0% 5%;
+        padding-left: 0%;
+    }
+
+    .linksVerMas {
+        font-weight:800 ;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .BSD {
+        font-size: 4rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: cover;
+        background-position: 10%;
+        background-repeat: no-repeat;
+        color:#FFFFFF ;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+        
+    }
+
 
 }
 
@@ -1327,10 +1372,12 @@ body{
     .indexTitulo {
         font-size: 3rem;
         padding-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     
     .parrafoTexto {
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin: 0% 4%;
     }
 
@@ -1342,11 +1389,47 @@ body{
     .tamañoIcon {
         width: 4%;
     }
+
+    /*Ver más*/
+
+    .tituloDePestañas {
+        font-weight:800 ;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .verMasTexto {
+        font-size: 1.5rem;
+        font-weight: 400;   
+        text-align: center;
+        justify-content: center;
+        margin: 0% 5% 0% 5%;
+        padding-left: 0%;
+    }
+
+    .linksVerMas {
+        font-weight:800 ;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .BSD {
+        font-size: 4rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: cover;
+        background-position: 10%;
+        background-repeat: no-repeat;
+        color:#FFFFFF ;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+        
+    }
 }
 
-/*Index xxl*/
+/*Media Queries xl*/
 
-@media (min-width:993px) {
+@media (min-width:993px) and (max-width: 1200px) {
 
 
     .tamañoLogo {
@@ -1386,7 +1469,7 @@ body{
     }
 
     .tituloIndex {
-        font-size: 5rem;
+        font-size: 3.5rem;
         font-family: 'Roboto Slab','Open Sans';
         font-weight: 900;
         padding-left: 5%;
@@ -1395,7 +1478,7 @@ body{
     } 
     
     .subtituloIndex {
-        font-size: 2rem;
+        font-size: 1.22rem;
         font-weight: 200 ;
         padding-left: 3%;
         padding-right: 3%;
@@ -1405,6 +1488,8 @@ body{
     .indexTitulo {
         font-size: 4rem;
         padding-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     
     .parrafoTexto {
@@ -1420,5 +1505,162 @@ body{
     .tamañoIcon {
         width: 2%;
     }
+
+    /*Ver más*/
+
+    .tituloDePestañas {
+        font-weight:800 ;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .verMasTexto {
+        font-size: 1.5rem;
+        font-weight: 400;   
+        text-align: center;
+        justify-content: center;
+        margin: 0% 5% 0% 5%;
+        padding-left: 0%;
+    }
+
+    .linksVerMas {
+        font-weight:800 ;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .BSD {
+        font-size: 5rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: cover;
+        background-position: 10%;
+        background-repeat: no-repeat;
+        color:#FFFFFF ;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+        
+    }
+}
+
+/*Media Queries xxl*/
+
+@media (min-width:1201px) {
+
+    /*Index*/
+
+    .tamañoLogo {
+        align-items: center;
+         margin-top: 3%;
+         height: 60%;
+         width: 20%;
+     }
+ 
+     .headerFrase{
+         font-size: 1.5rem;
+         text-align: center;
+         padding-top: 1.5%;
+         padding-bottom: 1%;  
+ 
+     }
+ 
+     .nav {
+         font-size: 1.5rem;
+     }
+     
+     .tamañoConteiner {
+         height: 600px;
+     }
+ 
+     .textoDestacado {
+         font-size: 3rem;    
+         padding-bottom: 2%;
+     }
+     
+     .buttonVerMas {
+         font-size: 1.5rem;
+         border: solid 1px #FFFFFF;
+         width: 20%;
+         padding-top: 1rem;
+         padding-bottom: 1rem;
+     }
+ 
+     .tituloIndex {
+         font-size: 6rem;
+         font-family: 'Roboto Slab','Open Sans';
+         font-weight: 900;
+         padding-left: 5%;
+         padding-top: 5%;
+ 
+     } 
+     
+     .subtituloIndex {
+         font-size: 2rem;
+         font-weight: 200 ;
+         padding-left: 3%;
+         padding-right: 3%;
+         margin-bottom: 0%;
+         margin-top: 5%;
+     }
+ 
+     .indexTitulo {
+         font-size: 4rem;
+         padding-top: 2%;
+         margin-left: 2%;
+         margin-right: 2%;
+     }
+     
+     .parrafoTexto {
+         font-size: 1.5rem;
+         margin: 0% 4%;
+     }
+ 
+     .footer {
+         font-size: 1.2rem;
+         padding-left: 2%;
+     }
+ 
+     .tamañoIcon {
+         width: 2%;
+    }
+
+    /*Ver más*/
+
+    .tituloDePestañas {
+        font-weight:800 ;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .verMasTexto {
+        font-size: 1.5rem;
+        font-weight: 400;   
+        text-align: center;
+        justify-content: center;
+        margin: 0% 5% 0% 5%;
+        padding-left: 0%;
+    }
+
+    .linksVerMas {
+        font-weight:800 ;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .BSD {
+        font-size: 6rem;
+        background-image: url("./Assets/2022banner.jpg");
+        background-size: cover;
+        background-position: 100%;
+        background-repeat: no-repeat;
+        color:#FFFFFF ;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+        
+    }
+
+   
+
 }
 
