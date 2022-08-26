@@ -271,6 +271,7 @@
 
 .tituloDeClases {
     font-size: 155%;
+    font-family: 'Roboto Slab','Open Sans';
 }
 
 .edadesDeClases {
@@ -773,101 +774,25 @@ body{
 
     /* Clases*/
 
-    #bloqueClasesUno {
-        display: grid;
-        width: 90%;
-        grid-template-areas: 
-        "imagenClaseUno"
-        "textoClaseUno"
-        "imagenClaseDos"
-        "textoClaseDos"
-        "imagenClaseTres"
-        "textoClaseTres";
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 0.2fr 0.5fr 0.16fr 0.8fr 0.001fr;
+
+    .tamañoClases{
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
         
     }
 
-    .tamañoClases{
-        width: 95%;
-        margin-top: 0%;
-        margin-bottom: 0%;
-    }
-    #imagenClaseUno {
-        grid-area: imagenClaseUno;   
-    }
-
-    #imagenClaseDos {
-        grid-area: imagenClaseDos;
-    }
-
-    #imagenClaseTres {
-        grid-area: imagenClaseTres;
-
-    }
-
-    #textoClaseUno {
-        grid-area: textoClaseUno;   
-    }
-
-    #textoClaseDos {
-        grid-area: textoClaseDos;
-    }
-
-    #textoClaseTres {
-        grid-area: textoClaseTres;
-    } 
-
-    .tituloDeClases {
-        font-size: 1.5rem;
+     .tituloDeClases {
+        font-size: 1.25rem;
         margin-top: 1%;
         margin-bottom: 1%;
     }
 
     .edadesDeClases {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-top: 1%;
         margin-bottom: 5%;
     }
-
-    #bloqueClasesDos {
-        display: grid;
-        width: 90%;
-        grid-template-areas: 
-        "imagenClaseDosUno"
-        "textoClaseDosUno"
-        "imagenClaseDosDos"
-        "textoClaseDosDos" 
-        "imagenClaseDosTres"
-        "textoClaseDosTres" ;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.8fr 0.2fr 0.5fr 0.16fr 0.25fr 0.12fr;
-        
-    }
-
-    #imagenClaseDosUno {
-        grid-area: imagenClaseDosUno;   
-    }
-
-    #imagenClaseDosDos {
-        grid-area: imagenClaseDosDos;
-    }
-
-    #imagenClaseDosTres {
-        grid-area: imagenClaseDosTres;
-    }
-
-    #textoClaseDosUno {
-        grid-area: textoClaseDosUno;
-    }
-
-    #textoClaseDosDos {
-        grid-area: textoClaseDosDos;
-    }
-
-    #textoClaseDosTres {
-        grid-area: textoClaseDosTres;
-    } 
 
     .tituloDeClasesMobile {
         font-size: 1.3rem;
@@ -876,33 +801,7 @@ body{
 
     }
 
-    #bloqueClasesTres {
-        display: grid;
-        width: 90%;
-        grid-template-areas: 
-        "imagenClaseTresUno "
-        "textoClaseTresUno"
-        "imagenClaseTresDos"
-        "textoClaseTresDos" ;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 0.2fr 0.5fr 0.016fr;
-    }
-
-    #imagenClaseTresUno {
-        grid-area: imagenClaseTresUno;   
-    }
-
-    #imagenClaseTresDos {
-        grid-area: imagenClaseTresDos;
-    }
-
-    #textoClaseTresUno {
-        grid-area: textoClaseTresUno;
-        
-    }
-
     
-
     /*Button Centrado Mobile*/
 
     .buttonCentrado{
@@ -1302,6 +1201,47 @@ body{
         
     }
 
+    /*Pestaña Clases*/
+
+    .tamañoClases{
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+     .tituloDeClases {
+        font-size: 1.25rem;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .edadesDeClases {
+        font-size: 1.2rem;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .tituloDeClasesMobile {
+        font-size: 1.3rem;
+        margin-top: 1%;
+        margin-bottom: 5%;
+
+    }
+
+    
+    /*Button Centrado Mobile*/
+
+    .buttonCentrado{
+        font-size: 1.2rem;
+        margin-bottom: 8%;
+        margin-top: 2%;
+        padding-top: 0.5rem;    
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+    }    
 
 }
 
@@ -1425,6 +1365,49 @@ body{
         margin-bottom: 0%;
         
     }
+
+     /*Pestaña Clases*/
+
+     .tamañoClases{
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .tituloDeClases {
+        font-size: 1.25rem;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .edadesDeClases {
+        font-size: 1.2rem;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .tituloDeClasesMobile {
+        font-size: 1.3rem;
+        margin-top: 1%;
+        margin-bottom: 5%;
+
+    }
+
+    
+    /*Button Centrado Mobile*/
+
+    .buttonCentrado{
+        font-size: 1.5rem;
+        margin-bottom: 8%;
+        margin-top: 2%;
+        padding-top: 0.5rem;    
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+    } 
+
 }
 
 /*Media Queries xl*/
@@ -1541,6 +1524,50 @@ body{
         margin-bottom: 0%;
         
     }
+
+     /*Pestaña Clases*/
+
+    .tamañoClases{
+        width: 90%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .tituloDeClases {
+        font-size: 1.25rem;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .edadesDeClases {
+        font-size: 1.2rem;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .tituloDeClasesMobile {
+        font-size: 1.3rem;
+        margin-top: 1%;
+        margin-bottom: 5%;
+
+    }
+
+    
+    /*Button Centrado Mobile*/
+
+    .buttonCentrado{
+        font-size: 1.5rem;
+        margin-bottom: 8%;
+        margin-top: 2%;
+        padding-top: 0.5rem;    
+        padding-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+    }
+
+    
 }
 
 /*Media Queries xxl*/
@@ -1660,6 +1687,47 @@ body{
         
     }
 
+    /*Pestaña Clases*/
+
+    .tamañoClases{
+       width: 90%;
+       margin-left: 50%;
+       transform: translateX(-50%);
+       
+   }
+
+   .tituloDeClases {
+       font-size: 1.25rem;
+       margin-top: 1%;
+       margin-bottom: 1%;
+   }
+
+   .edadesDeClases {
+       font-size: 1.2rem;
+       margin-top: 1%;
+       margin-bottom: 5%;
+   }
+
+   .tituloDeClasesMobile {
+       font-size: 1.3rem;
+       margin-top: 1%;
+       margin-bottom: 5%;
+
+   }
+
+   
+   /*Button Centrado Mobile*/
+
+   .buttonCentrado{
+       font-size: 1.5rem;
+       margin-bottom: 8%;
+       margin-top: 2%;
+       padding-top: 0.5rem;    
+       padding-bottom: 0.5rem;
+       padding-left: 1.5rem;
+       padding-right: 1.5rem;
+       
+   }
    
 
 }
