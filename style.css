@@ -1089,15 +1089,17 @@ body{
         font-size: 3rem;
         font-weight: 900;
         padding-left: 3%;
-        margin-top: 5%;
+        margin-bottom: 0%;
+     
     } 
     
     .subtituloIndex {
-        font-size: 1.5rem;
+        font-size: 1.09rem;
         font-weight: 200 ;
         padding-left: 3%;
         padding-right: 3%;
-        margin-bottom: 5%;
+        margin-bottom: 0%;
+
     }
 
     .indexTitulo {
@@ -1804,7 +1806,7 @@ body{
      }
  
      .tituloIndex {
-         font-size: 6rem;
+         font-size: 5.5rem;
          font-family: 'Roboto Slab','Open Sans';
          font-weight: 900;
          padding-left: 5%;
