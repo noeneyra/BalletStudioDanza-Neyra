@@ -730,6 +730,7 @@ body{
         font-weight:800 ;
         text-align: center;
         font-size: 1.25rem;
+        padding-bottom: 3%;
     }
 
     .tamañoIcon {
@@ -775,11 +776,11 @@ body{
     /* Clases*/
 
 
-    .tamañoClases{
-        width: 80%;
+    .tamañoClases {
+        width: 75%;
         margin-left: 50%;
         transform: translateX(-50%);
-        
+
     }
 
      .tituloDeClases {
@@ -1636,6 +1637,23 @@ body{
         transform: translateX(-50%);
     }
 
+    .tamañoP {
+        width:80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .tamañoA {
+        width:68%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+
     .tituloDeClases {
         font-size: 1.25rem;
         margin-top: 1%;
@@ -1653,6 +1671,14 @@ body{
         margin-top: 1%;
         margin-bottom: 5%;
 
+    }
+
+    .zoom {
+        transition: transform .2s;
+    }
+
+    .zoom:hover {
+        transform: scale(1.05);
     }
 
     
@@ -1861,6 +1887,14 @@ body{
        
    }
 
+   .tamañoL {
+    width: 80%;
+   }
+
+   .tamañoLA {
+    width: 68%;
+   }
+
    .tituloDeClases {
        font-size: 1.25rem;
        margin-top: 1%;
@@ -1879,6 +1913,14 @@ body{
        margin-bottom: 5%;
 
    }
+
+   .zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
 
    
    /*Button Centrado Mobile*/
