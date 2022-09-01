@@ -1,0 +1,146 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "bg";
+@import "display";
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: initial;
+}
+
+.BSD {
+  font-family: $Rozha, $OpenSans;
+  font-size: 80px;
+  background-image: url("/Assets/2022banner.jpg");
+  background-size: 100%;
+  background-repeat: $noRepeat;
+  height: 500px !important;
+  color: $white;
+  display: $display-flex;
+  justify-content: $justify-center;
+  align-items: $align-center;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+
+  .mobile {
+    display: initial;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+  }
+
+  .BSD {
+    font-size: 3rem;
+    background-image: url("./Assets/banner1.jpg");
+    background-size: $cover;
+    background-repeat: $noRepeat;
+    background-position: 45%;
+    color: #FFFFFF;
+    justify-content: $justify-center;
+    align-items: $align-center;
+    margin-bottom: 0%;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 642px) {
+  
+  .tablet {
+    display: Initial;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+  
+    .BSD {
+        font-size: 4rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: $cover;
+        background-position: 10%;
+        background-repeat: $noRepeat;
+        color: $white;
+        justify-content: $justify-center;
+        align-items: $align-center;
+        margin-bottom: 0%;
+      }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  .tablet {
+    display: Initial;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: initial;
+  }
+
+    .BSD {
+        font-size: 4rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: $cover;
+        background-position: 10%;
+        background-repeat: $noRepeat;
+        color: $white;
+        justify-content: $justify-center;
+        align-items: $align-center;
+        margin-bottom: 0%;
+      }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .BSD {
+        font-size: 5rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: $cover;
+        background-position: 10%;
+        background-repeat: $noRepeat;
+        color: $white;
+        justify-content: $justify-center;
+        align-items: $align-center;
+        margin-bottom: 0%;
+      }
+}
+
+@media (min-width: 1201px) {
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: initial;
+  }
+
+  .BSD {
+    font-size: 6rem;
+    background-image: url("/Assets/2022banner.jpg");
+    background-size: $cover;
+    background-position: 100%;
+    background-repeat: $noRepeat;
+    color: #FFFFFF;
+    justify-content: $justify-center;
+    align-items: $align-center;
+    margin-bottom: 0%;
+  }
+}

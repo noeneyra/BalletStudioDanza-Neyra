@@ -1,0 +1,140 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "tamaños";
+@import "display";
+
+.bgBanner {
+    background-image: url("../Assets/imgBanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.tamañoConteiner {
+height: 600px;
+}
+
+.textoDestacado {
+    color: #FFFFFF;
+    font-family: "Roboto", "Open Sans";
+    font-style: normal;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonVerMas {
+    font-size: 1rem;
+    border: solid 1px #FFFFFF;
+    width: 35%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 0.8rem;
+    --bs-link-color: #FFFFFF;
+    --bs-link-hover-color: #c40055;
+}
+  
+@media (max-width: 600px) {
+
+    .mobile {
+        display: initial;
+      }
+      .desktop {
+        display: none !important;
+      }
+      .dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;
+        white-space: nowrap;
+      }
+
+    .BSD {
+        font-size: 3rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 45%;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+    }    
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+    .BSD {
+        font-size: 4rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: cover;
+        background-position: 10%;
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .tablet {
+        display: Initial;
+      }
+      .desktop {
+        display: none !important;
+      }
+      .mobile {
+        display: initial;
+      }
+
+      
+    .BSD {
+        font-size: 4rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: cover;
+        background-position: 10%;
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .BSD {
+        font-size: 5rem;
+        background-image: url("./Assets/banner1.jpg");
+        background-size: cover;
+        background-position: 10%;
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+    .BSD {
+        font-size: 6rem;
+        background-image: url("./Assets/2022banner.jpg");
+        background-size: cover;
+        background-position: 100%;
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+    
+}

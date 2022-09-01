@@ -1,0 +1,226 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "bg";
+@import "display";
+
+
+
+.form {
+    font-family: "Gothic A1", "Open Sans";
+    font-weight: 800;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+
+
+.obligatorio {
+    font-family: "Gothic A1", "Open Sans";
+    font-size: 80%;
+    font-weight: 100;
+}
+  
+.sizeInput {
+    width: 220%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20%;
+}
+
+  
+.sizeInputMensaje {
+    width: 220%;
+    padding: 20px 20px 100px;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+
+  
+.alineacionForm {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    transform: translateX(-23%);
+}
+
+@media (max-width: 600px) {
+
+  .mobile {
+    display: initial;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+  }
+
+.form {
+    font-weight: 800;
+    font-size: 1rem;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+  .sizeInput {
+    width: 2.2rem;
+    padding: 0.6rem 8rem;
+    box-sizing: border-box;
+    margin-bottom: 20%;
+  }
+  .sizeInputMensaje {
+    width: 100%;
+    padding: 1rem 1rem 3rem;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+  }
+  .alineacionForm {
+    margin-left: 50%;
+    transform: translateX(-60%);
+    padding-left: 10%;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+  .form {
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+  .sizeInput {
+    width: 2.2rem;
+    padding: 0.6rem 10rem;
+    box-sizing: border-box;
+    margin-bottom: 20%;
+  }
+  .sizeInputMensaje {
+    width: 100%;
+    padding: 1rem 1rem 3rem;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+  }
+  .alineacionForm {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-left: 10%;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  .form {
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+  .sizeInput {
+    width: 2.2rem;
+    padding: 0.8rem 12rem;
+    box-sizing: border-box;
+    margin-bottom: 20%;
+  }
+  .sizeInputMensaje {
+    width: 100%;
+    padding: 1rem 1rem 3rem;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+  }
+  .alineacionForm {
+    margin-left: 50%;
+    transform: translateX(-60%);
+    padding-left: 10%;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  .form {
+    font-family: "Gothic A1", "Open Sans";
+    font-weight: 800;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+  }
+  .obligatorio {
+    font-family: "Gothic A1", "Open Sans";
+    font-size: 80%;
+    font-weight: 100;
+  }
+  .sizeInput {
+    width: 150%;
+    padding-right: 10%;
+    margin-bottom: 20%;
+    padding-bottom: 2%;
+  }
+  .sizeInputMensaje {
+    width: 150%;
+    padding: 20% 0.8% 20%;
+    margin-bottom: 2%;
+  }
+  .alineacionForm {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translateX(-45%);
+  }
+}
+
+@media (min-width: 1201px) {
+
+  .form {
+    font-family: "Gothic A1", "Open Sans";
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+  }
+  .obligatorio {
+    font-family: "Gothic A1", "Open Sans";
+    font-size: 80%;
+    font-weight: 100;
+  }
+  .sizeInput {
+    width: 150%;
+    padding-right: 10%;
+    margin-bottom: 20%;
+    padding-bottom: 2%;
+  }
+  .sizeInputMensaje {
+    width: 150%;
+    padding: 20% 0.8% 20%;
+    margin-bottom: 2%;
+  }
+  .alineacionForm {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translateX(-25%);
+  } 
+
+
+}
+
+
+
+
+

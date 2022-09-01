@@ -1,0 +1,161 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "bg";
+@import "display";
+@import "tamaños";
+
+.salon {
+    background-color: rgba(248, 182, 196, 0.7725490196);
+    color: #ed1e79;
+    font-family: "Roboto Slab", "Open Sans";
+    text-align: center;
+    font-size: 2rem;
+}
+  
+.dias {
+    background-color: #f8b6c4c5;
+    color: #ed1e79;
+    font-family: "Roboto Slab", "Open Sans";
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 2%;
+    border-bottom: solid 2px #ed1e79;
+}
+  
+.borderRight {
+    border-right: solid 2px #ed1e79;
+}
+  
+.borderBottom {
+    border-bottom: solid 2px #ed1e79;
+}
+  
+.horarios {
+    background-color: rgba(248, 182, 196, 0.7725490196);
+    color: #ed1e79;
+    font-family: "Roboto Slab", "Open Sans";
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+  
+.clases {
+    background-color: rgba(248, 201, 210, 0.4588235294);
+    font-family: "Roboto Slab", "Open Sans";
+    color: #ed1e79;
+    padding: 1%;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+  
+.contemporaneo {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 600px) {
+
+    .salon {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .dias {
+        font-size: 1rem;
+        padding: 1%;
+    }
+
+    .horarios {
+        font-size: 0.7rem;
+        padding: 1%;
+    }
+
+    .clases {
+        font-size: 0.62rem;
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+    .salon {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .dias {
+        font-size: 1rem;
+        padding: 2%;
+    }
+
+    .horarios {
+        font-size: 1rem;
+        padding: 1%;
+    }
+
+    .clases {
+        font-size: 0.75rem;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .salon {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .dias {
+        font-size: 1.2rem;
+        padding: 2%;
+    }
+
+    .horarios {
+        font-size: 1rem;
+        padding: 1%;
+    }
+
+    .clases {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+    .alineacionGrilla {
+        margin-right: 0%;
+
+    }
+
+    .salon {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .dias {
+        font-size: 1.5rem;
+        padding: 2%;
+    }
+
+    .horarios {
+        font-size: 1.2rem;
+        padding: 1%;
+    }
+
+    .clases {
+        font-size: 1.2rem;
+    }
+
+}
+

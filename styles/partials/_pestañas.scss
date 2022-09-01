@@ -1,0 +1,126 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "tamaños";
+@import "display";
+
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: initial;
+}
+  
+.dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.nav {
+    background-color: $black ;
+    --bs-link-color: $white ;
+    --bs-nav-link-hover-color: $mainRosa ;
+}
+
+  
+.dropdown-item {
+    --bs-dropdown-link-color: $white;
+    white-space: $nowrap;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .mobile {
+        display: initial;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;
+        white-space: nowrap;
+    }
+
+    .fondoPestaña {
+        display: block;
+        width: 100%;
+        padding: 0%;
+        text-align: center;
+    }
+
+    .dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;
+        white-space: nowrap;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+    .tablet {
+        display: Initial;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: initial;
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .tablet {
+        display: Initial;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+    
+    .mobile {
+        display: initial;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .nav {
+        font-size: 1.2rem;
+        color: $white;
+
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+    .tablet {
+        display: none;
+    }
+
+    .desktop {
+        display: initial;
+    }
+    
+    .mobile {
+        display: none;
+    }
+
+    .nav {
+        font-size: 1.5rem;
+        color: $white;
+        --bs-nav-link-hover-color: $mainRosa ;
+    }
+  
+}

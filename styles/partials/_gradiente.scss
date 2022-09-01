@@ -1,0 +1,9 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "tamaños";
+@import "display";
+
+.gradienteVerticalRosa {
+  background-image: linear-gradient(to right, #FFFFFF, rgba(237, 30, 120, 0.1450980392));
+}

@@ -1,0 +1,189 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "tamaños";
+
+.bgRosa {
+    background-color: $bgRosaHeader;
+}
+
+.tamañoLogo {
+    margin-left: 50%;
+    transform: $Transform ;
+    margin-top: 5%;
+    height: 75%;
+    width: 50%;
+    padding-bottom: 2%;
+}
+
+.headerFrase {
+    font-family: $Roboto, $OpenSans ;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-top: 6%;
+}
+
+@media (max-width: 600px) {
+
+  .mobile {
+    display: initial;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+  }
+
+
+  .headerFrase {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .tamañoLogo {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+    height: 75%;
+    width: 50%;
+    padding-bottom: 2%;
+  }
+
+  .conteiner {
+    width: 100%;
+  }
+
+  .tamañoConteiner {
+    height: 200px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  
+  .tablet {
+    display: $initial;
+  }
+
+  .desktop {
+    display: $none !important;
+  }
+
+  .mobile {
+    display: $initial;
+  }
+
+  .headerFrase {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .tamañoLogo {
+    margin-left: 45%;
+    transform: translateX(-60%);
+    margin-top: 5%;
+    height: 65%;
+    width: 35%;
+    padding-bottom: 0%;
+  }
+
+  .tamañoConteiner {
+    height: 400px;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  .tablet {
+      display: Initial;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .mobile {
+    display: initial;
+  }
+
+  .tamañoLogo {
+    margin-left: 50%;
+    transform: translateX(-60%);
+    margin-top: 5%;
+    height: 65%;
+    width: 40%;
+    padding-bottom: 2%;
+  }
+
+  .headerFrase {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .tamañoConteiner {
+    height: 400px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  
+  .tamañoLogo {
+    align-items: center;
+    margin-top: 3%;
+    padding-bottom: 0%;
+    height: 68%;
+    width: 30%;
+    margin-left: 30%;
+    transform: translateX(-50%);
+  }
+
+  .headerFrase {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+  }
+
+  .nav {
+    font-size: 1.5rem;
+  }
+  
+  .tamañoConteiner {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1201px) {
+
+  .tamañoLogo {
+    margin-left: 20%;
+    align-items: center;
+    margin-top: 4%;
+    padding-bottom: 0%;
+    height: 50%;
+    width: 20%;
+  }
+  .headerFrase {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+  }
+  .nav {
+    font-size: 1.5rem;
+  }
+  .tamañoConteiner {
+    height: 600px;
+  }
+}

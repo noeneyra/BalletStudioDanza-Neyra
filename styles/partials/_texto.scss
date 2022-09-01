@@ -1,0 +1,548 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "tamaños";
+@import "display";
+
+
+.verMasTexto {
+    color: #000000;
+    font-family: "Gothic A1", "Open Sans";
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.linksVerMas {
+    font-family: "Roboto Slab", "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-size: 1.8rem;
+    --bs-link-hover-color:#d3005b ;
+    --bs-link-color: #ed1e79;
+}
+
+
+.tituloIndex {
+  color: #ed1e79;
+  font-size: 600%;
+  font-family: "Roboto Slab", "Open Sans";
+  font-weight: 900;
+  padding-left: 5%;
+}
+
+.subtituloIndex {
+  font-family: "Roboto Slab", serif, "Open Sans";
+  font-size: 250%;
+  font-weight: 400;
+  line-height: 40px;
+  padding-left: 5%;
+}
+
+.indexCuerpoTexto {
+    background-color: rgba(237, 30, 120, 0.1764705882);
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 5%;
+}
+
+.indexTitulo {
+    color: #ed1e79;
+    font-family: "Abhaya Libre", "Open Sans";
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+  
+.parrafoTexto {
+    color: #000000;
+    font-family: "Gothic A1", "Open Sans";
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0% 2%;
+}
+
+.verMasTexto {
+  color: #000000;
+  font-family: "Gothic A1", "Open Sans";
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.linksVerMas {
+  font-family: "Roboto Slab", "Open Sans";
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 2%;
+  font-size: 1.8rem;
+  --bs-link-hover-color:#d3005b ;
+  --bs-link-color: #ed1e79;
+}
+
+
+.tituloIndex {
+  color: #ed1e79;
+  font-size: 600%;
+  font-family: "Roboto Slab", "Open Sans";
+  font-weight: 900;
+  padding-left: 5%;
+}
+
+.subtituloIndex {
+  font-family: "Roboto Slab", serif, "Open Sans";
+  font-size: 250%;
+  font-weight: 400;
+  line-height: 40px;
+  padding-left: 5%;
+}
+
+
+.indexCuerpoTexto {
+  background-color: rgba(237, 30, 120, 0.1764705882);
+  width: 100%;
+  padding-top: 0.5%;
+  padding-bottom: 5%;
+}
+
+.indexTitulo {
+  color: #ed1e79;
+  font-family: "Abhaya Libre", "Open Sans";
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+}
+
+.parrafoTexto {
+  color: #000000;
+  font-family: "Gothic A1", "Open Sans";
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 0% 2%;
+}
+
+.tituloDePestañas {
+    color: #ed1e79;
+    font-family: "Roboto Slab", "Open Sans";
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.tituloDeClases {
+    font-size: 155%;
+    font-family: "Roboto Slab", "Open Sans";
+}
+  
+.edadesDeClases {
+font-size: 130%;
+}
+
+@media (max-width: 600px) {
+
+  .mobile {
+    display: initial;
+  }
+
+  .desktop {
+    display: none !important;
+  }
+
+  .dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+  }
+
+  .textoDestacado {
+    font-size: 1rem;
+    padding-bottom: 2%;
+  }
+
+  .tituloIndex {
+    font-size: 2rem;
+    font-weight: 900;
+    padding-left: 5%;
+    margin-top: 5%;
+  }
+
+  .subtituloIndex {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .indexTitulo {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .parrafoTexto {
+    color: #000000;
+    font-family: "Gothic A1", "Open Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .tituloDePestañas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.25rem;
+    padding-bottom: 3%;
+  }
+
+  .verMasTexto {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin: 0% 5% 0% 5%;
+    padding-left: 0%;
+  }
+  .linksVerMas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .tituloDeClases {
+    font-size: 1.25rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .edadesDeClases {
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+  .tituloDeClasesMobile {
+    font-size: 1.3rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+    
+  .textoDestacado {
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
+ 
+  .tituloIndex {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-left: 3%;
+    margin-bottom: 0%;
+  }
+  .subtituloIndex {
+    font-size: 1.09rem;
+    font-weight: 200;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 0%;
+  }
+  .indexTitulo {
+    font-size: 3rem;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .parrafoTexto {
+    font-size: 1.5rem;
+    margin: 0% 4%;
+  }
+
+  .tituloDePestañas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .verMasTexto {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin: 0% 5% 0% 5%;
+    padding-left: 0%;
+  }
+  .linksVerMas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .tituloDeClases {
+    font-size: 1.25rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .edadesDeClases {
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+  .tituloDeClasesMobile {
+    font-size: 1.3rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+  .textoDestacado {
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
+  .buttonVerMas {
+    font-size: 1.2rem;
+    border: solid 1px #FFFFFF;
+  }
+  .tituloIndex {
+    font-size: 3rem;
+    margin-top: 5%;
+    padding-left: 1%;
+  }
+  .subtituloIndex {
+    font-size: 1.2rem;
+    gap: 0.2%;
+    font-weight: 200;
+    padding-left: 1%;
+    padding-right: 3%;
+    margin-bottom: 5%;
+  }
+  .indexTitulo {
+    font-size: 3rem;
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .parrafoTexto {
+    font-size: 1.5rem;
+    margin: 0% 4%;
+  }
+
+  .tituloDePestañas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .verMasTexto {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin: 0% 5% 0% 5%;
+    padding-left: 0%;
+  }
+  .linksVerMas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .tituloDeClases {
+    font-size: 1.25rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .edadesDeClases {
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+  .tituloDeClasesMobile {
+    font-size: 1.3rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  .textoDestacado {
+    font-size: 3rem;
+    padding-bottom: 2%;
+  }
+  .buttonVerMas {
+    font-size: 1.5rem;
+    border: solid 1px #FFFFFF;
+    width: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .tituloIndex {
+    font-size: 3.5rem;
+    font-family: "Roboto Slab", "Open Sans";
+    font-weight: 900;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  .subtituloIndex {
+    font-size: 1.22rem;
+    font-weight: 200;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 0%;
+  }
+  .indexTitulo {
+    font-size: 4rem;
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .parrafoTexto {
+    font-size: 1.5rem;
+    margin: 0% 4%;
+  }
+
+  .tituloDePestañas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .verMasTexto {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin: 0% 5% 0% 5%;
+    padding-left: 0%;
+  }
+  .linksVerMas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .tituloDeClases {
+    font-size: 1.25rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .edadesDeClases {
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+  .tituloDeClasesMobile {
+    font-size: 1.3rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+  .zoom {
+    transition: transform 0.2s;
+  }
+  .zoom:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media (min-width: 1201px) {
+
+  .mobile {
+    display: none;
+}
+
+.desktop {
+    display: initial;
+}
+
+  .textoDestacado {
+    font-size: 3rem;
+    padding-bottom: 2%;
+  }
+  .buttonVerMas {
+    font-size: 1.5rem;
+    border: solid 1px #FFFFFF;
+    width: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .tituloIndex {
+    font-size: rem;
+    font-family: "Roboto Slab", "Open Sans";
+    font-weight: 900;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  .subtituloIndex {
+    font-size: 2rem;
+    font-weight: 200;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+  }
+  .indexTitulo {
+    font-size: 4rem;
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .parrafoTexto {
+    font-size: 1.5rem;
+    margin: 0% 4%;
+  }
+
+  .tituloDePestañas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .verMasTexto {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin: 0% 5% 0% 5%;
+    padding-left: 0%;
+  }
+  .linksVerMas {
+    font-weight: 800;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .tituloDeClases {
+    font-size: 1.25rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .edadesDeClases {
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+  .tituloDeClasesMobile {
+    font-size: 1.3rem;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+  .zoom {
+    transition: transform 0.2s;
+  }
+  .zoom:hover {
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,95 @@
+@import "colores";
+@import "align";
+@import "fonts";
+@import "tamaños";
+
+
+
+@media (max-width: 600px) {
+
+    .tamañoGaleria {
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 2%;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 642px) {
+
+    .tablet {
+        display: Initial;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+
+    .tamañoGaleria {
+        width: 70%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 2%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .tamañoGaleria {
+        width: 60%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .tamañoGaleria {
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 2%;
+
+    }
+
+    .marginDe {
+        margin-top: 5%;
+        height: 87%;
+    }
+
+    .marginD {
+        margin-top: 6%;
+        margin-bottom: 10%;
+        padding-top: 1%;
+        height: 87%;
+    }
+
+}
+
+@media (min-width: 1201px) {
+
+    .tamañoGaleria {
+        width: 86%;
+        height: 90%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .marginDe {
+        margin-top: 5%;
+        height: 87%;
+    }
+
+    .marginD {
+        margin-top: 5%;
+        padding-top: 1%;
+        height: 87%;
+    }
+
+}
