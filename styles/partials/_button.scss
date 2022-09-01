@@ -28,23 +28,35 @@
   .mobile {
     display: initial;
   }
+
   .desktop {
     display: none !important;
   }
+  
   .dropdown-item {
     --bs-dropdown-link-color: #FFFFFF;
     white-space: nowrap;
   }
 
-    .buttonCentrado {
-        font-size: 1rem;
-        margin-bottom: 8%;
-        margin-top: 2%;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-      }
+  .buttonCentrado {
+    font-size: 1rem;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .buttonVerMas {
+    border: solid 1px #FFFFFF;
+    width: 35%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.8rem;
+    --bs-link-color: #FFFFFF;
+    --bs-link-hover-color: #c40055;
+  }    
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
