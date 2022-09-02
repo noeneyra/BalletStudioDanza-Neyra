@@ -2080,6 +2080,7 @@
     background-color: #000000;
     --bs-link-color: #FFFFFF ;
     --bs-nav-link-hover-color: $mainRosa ;
+    font-size: 1.2rem;
   }
   .dropdown-item {
     --bs-dropdown-link-color: $white;
