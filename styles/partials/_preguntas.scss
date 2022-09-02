@@ -23,12 +23,16 @@
 .imagenPreguntas {
     width: 90%;
     height: auto;
-
 }
   
 .mobile {
     display: none;
 }
+
+.gradienteRosa {
+    background-image: linear-gradient(to bottom, #FFFFFF , #ed1e782d);
+}
+
 
 @media (max-width: 600px) {
 

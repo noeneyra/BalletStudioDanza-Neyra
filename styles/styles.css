@@ -2258,6 +2258,10 @@
   display: none;
 }
 
+.gradienteRosa {
+  background-image: linear-gradient(to bottom, #FFFFFF, rgba(237, 30, 120, 0.1764705882));
+}
+
 @media (max-width: 600px) {
   .estiloPregunta {
     color: #ed1e79;
