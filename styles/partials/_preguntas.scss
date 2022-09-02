@@ -3,6 +3,7 @@
 @import "fonts";
 @import "tamaños";
 
+
 #gridPreguntas {
     display: grid;
     grid-template-areas: "textoPreguntas imagenPreguntas";
@@ -22,16 +23,16 @@
     padding-bottom: 8%;
     padding-left: 5%;
 }
-  
+
 .estiloPregunta {
-    font-family: "Roboto Slab", "Open Sans";
-    font-size: 150%;
-    color: #ed1e79;
+    font-size: 1.5rem;
+    font-family:'Roboto Slab','Open Sans';
+    color:#ed1e79 ;
 }
   
 .estiloRespuesta {
     font-family: "Roboto Slab", "Open Sans";
-    font-size: 120%;
+    font-size: 1.2rem;
     margin-bottom: 8%;
 }
   
@@ -74,11 +75,14 @@
     }
 
     .estiloPregunta {
+        color:#ed1e79 ;
+        font-family:'Roboto Slab','Open Sans';
         font-size: 1rem;
     }
 
       .estiloRespuesta {
         font-size: 1rem;
+        font-family: "Roboto Slab", "Open Sans";
     }
 
 }
@@ -113,5 +117,43 @@
 
 @media (min-width: 1201px) {
 
+    #gridPreguntas {
+        display: grid;
+        grid-template-areas: "textoPreguntas imagenPreguntas";
+        grid-template-rows: 500fr;
+        grid-template-columns: 1fr 0.9fr;
+        margin-right: 5%;
+    }
+      
+    #textoPreguntas {
+        grid-area: textoPreguntas;
+        padding-top: 2%;
+        margin-left: 5%;
+    }
+      
+    #imagenPreguntas {
+        grid-area: imagenPreguntas;
+        padding-bottom: 8%;
+        padding-left: 5%;
+    }
+    
+    .estiloPregunta {
+        font-size: 1.5rem;
+        font-family:'Roboto Slab','Open Sans';
+        color:#ed1e79 ;
+    }
+      
+    .estiloRespuesta {
+        font-family: "Roboto Slab", "Open Sans";
+        font-size: 1.2rem;
+        margin-bottom: 8%;
+    }
+      
+    .divEnteroHeader {
+        width: 100%;
+        font-size: 100%;
+        text-align: center;
+        display: inline;
+    }
 
 }
