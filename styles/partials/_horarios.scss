@@ -58,19 +58,24 @@
 
 @media (max-width: 600px) {
 
+    
+    .entireCol{
+        width: 100%;    
+    }
+
     .salon {
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
     .dias {
-        font-size: 1rem;
+        font-size: 0.62rem;
         padding: 1%;
     }
 
     .horarios {
         font-size: 0.7rem;
-        padding: 1%;
+        padding: 0%;
     }
 
     .clases {
@@ -88,17 +93,18 @@
     }
 
     .dias {
-        font-size: 1rem;
-        padding: 2%;
+        font-size: 0.8rem;
+        padding: 1%;
     }
 
     .horarios {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 1%;
     }
 
     .clases {
         font-size: 0.75rem;
+   
     }
 
 }
@@ -129,13 +135,20 @@
         font-size: 1rem;
     }
 
+    .alineacionGrilla {
+
+        margin-left: 1%;
+
+    }
+
 }
 
 @media (min-width: 1201px) {
 
     .alineacionGrilla {
-        margin-right: 0%;
 
+        margin-left: 18%;
+        
     }
 
     .salon {

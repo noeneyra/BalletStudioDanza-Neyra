@@ -43,7 +43,7 @@
 
   .BSD {
     font-size: 3rem;
-    background-image: url("./Assets/banner1.jpg");
+    background-image: url("/Assets/banner1.jpg");
     background-size: $cover;
     background-repeat: $noRepeat;
     background-position: 45%;
@@ -72,7 +72,7 @@
   
     .BSD {
         font-size: 4rem;
-        background-image: url("./Assets/banner1.jpg");
+        background-image: url("/Assets/banner1.jpg");
         background-size: $cover;
         background-position: 10%;
         background-repeat: $noRepeat;
@@ -97,7 +97,7 @@
 
     .BSD {
         font-size: 4rem;
-        background-image: url("./Assets/banner1.jpg");
+        background-image: url("/Assets/banner1.jpg");
         background-size: $cover;
         background-position: 10%;
         background-repeat: $noRepeat;
@@ -111,7 +111,7 @@
 @media (min-width: 993px) and (max-width: 1200px) {
     .BSD {
         font-size: 5rem;
-        background-image: url("./Assets/banner1.jpg");
+        background-image: url("/Assets/banner1.jpg");
         background-size: $cover;
         background-position: 10%;
         background-repeat: $noRepeat;

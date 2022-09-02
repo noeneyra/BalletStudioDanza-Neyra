@@ -5,14 +5,7 @@
 @import "display";
 
 
-.mobile {
-    display: none;
-}
 
-.desktop {
-    display: initial;
-}
-  
 .dropdown-item {
     --bs-dropdown-link-color: #FFFFFF;
     white-space: nowrap;
@@ -21,7 +14,7 @@
 .nav {
     background-color: $black ;
     --bs-link-color: $white ;
-    --bs-nav-link-hover-color: $mainRosa ;
+    --bs-nav-link-hover-color: #ed1e79 !important ;
 }
 
   
@@ -63,16 +56,27 @@
 
 @media (min-width: 601px) and (max-width: 768px) {
 
-    .tablet {
-        display: Initial;
+    .colorBlanco {
+
+        color:#FFFFFF;
     }
 
-    .desktop {
-        display: none !important;
+    .fondoPestaña {
+        display: block;
+        width: 100%;
+        padding: 0%;
+        text-align: center;
     }
 
-    .mobile {
-        display: initial;
+    .dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;
+        white-space: nowrap;
+    }
+
+    .nav {
+        background-color: $black ;
+        --bs-link-color: #FFFFFF ;
+        --bs-nav-link-hover-color: #ed1e79 ;
     }
 
 
@@ -80,25 +84,44 @@
 
 @media (min-width: 769px) and (max-width: 992px) {
 
-    .tablet {
-        display: Initial;
+    .mobile {
+        display: initial;
     }
 
     .desktop {
         display: none !important;
     }
-    
-    .mobile {
-        display: initial;
-    }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+    
+    .tablet {
+        display: none;
+    }
 
+    .desktop {
+        display: initial;
+    }
+    
+    .mobile {
+        display: none;
+    }
+
+    .dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;
+        white-space: nowrap;
+    }
+    
     .nav {
-        font-size: 1.2rem;
-        color: $white;
-
+        background-color: $black ;
+        --bs-link-color: #FFFFFF ;
+        --bs-nav-link-hover-color: $mainRosa ;
+    }
+    
+      
+    .dropdown-item {
+        --bs-dropdown-link-color: $white;
+        white-space: $nowrap;
     }
 
 }

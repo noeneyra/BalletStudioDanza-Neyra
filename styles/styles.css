@@ -34,7 +34,7 @@
   }
   .BSD {
     font-size: 3rem;
-    background-image: url("./Assets/banner1.jpg");
+    background-image: url("/Assets/banner1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 45%;
@@ -55,7 +55,7 @@
 @media (min-width: 601px) and (max-width: 768px) {
   .BSD {
     font-size: 4rem;
-    background-image: url("./Assets/banner1.jpg");
+    background-image: url("/Assets/banner1.jpg");
     background-size: cover;
     background-position: 10%;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@
   }
   .BSD {
     font-size: 4rem;
-    background-image: url("./Assets/banner1.jpg");
+    background-image: url("/Assets/banner1.jpg");
     background-size: cover;
     background-position: 10%;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@
 @media (min-width: 993px) and (max-width: 1200px) {
   .BSD {
     font-size: 5rem;
-    background-image: url("./Assets/banner1.jpg");
+    background-image: url("/Assets/banner1.jpg");
     background-size: cover;
     background-position: 10%;
     background-repeat: no-repeat;
@@ -1507,16 +1507,6 @@
 }
 
 @media (max-width: 600px) {
-  .mobile {
-    display: initial;
-  }
-  .desktop {
-    display: none !important;
-  }
-  .dropdown-item {
-    --bs-dropdown-link-color: #FFFFFF;
-    white-space: nowrap;
-  }
   .headerFrase {
     font-size: 1rem;
     text-align: center;
@@ -1539,15 +1529,6 @@
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
-  .tablet {
-    display: initial;
-  }
-  .desktop {
-    display: none !important;
-  }
-  .mobile {
-    display: initial;
-  }
   .headerFrase {
     font-size: 1.2rem;
     text-align: center;
@@ -1567,15 +1548,6 @@
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
-  .tablet {
-    display: Initial;
-  }
-  .desktop {
-    display: none !important;
-  }
-  .mobile {
-    display: initial;
-  }
   .tamañoLogo {
     margin-left: 50%;
     transform: translateX(-60%);
@@ -1609,9 +1581,6 @@
     text-align: center;
     padding-top: 1.5%;
     padding-bottom: 1%;
-  }
-  .nav {
-    font-size: 1.5rem;
   }
   .tamañoConteiner {
     height: 600px;
@@ -1821,17 +1790,20 @@
 }
 
 @media (max-width: 600px) {
+  .entireCol {
+    width: 100%;
+  }
   .salon {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
   .dias {
-    font-size: 1rem;
+    font-size: 0.62rem;
     padding: 1%;
   }
   .horarios {
     font-size: 0.7rem;
-    padding: 1%;
+    padding: 0%;
   }
   .clases {
     font-size: 0.62rem;
@@ -1843,11 +1815,11 @@
     font-size: 0.8rem;
   }
   .dias {
-    font-size: 1rem;
-    padding: 2%;
+    font-size: 0.8rem;
+    padding: 1%;
   }
   .horarios {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 1%;
   }
   .clases {
@@ -1870,10 +1842,13 @@
   .clases {
     font-size: 1rem;
   }
+  .alineacionGrilla {
+    margin-left: 1%;
+  }
 }
 @media (min-width: 1201px) {
   .alineacionGrilla {
-    margin-right: 0%;
+    margin-left: 18%;
   }
   .salon {
     text-align: center;
@@ -2021,14 +1996,6 @@
     height: 20%;
   }
 }
-.mobile {
-  display: none;
-}
-
-.desktop {
-  display: initial;
-}
-
 .dropdown-item {
   --bs-dropdown-link-color: #FFFFFF;
   white-space: nowrap;
@@ -2037,7 +2004,7 @@
 .nav {
   background-color: #000000;
   --bs-link-color: $white ;
-  --bs-nav-link-hover-color: $mainRosa ;
+  --bs-nav-link-hover-color: #ed1e79 !important ;
 }
 
 .dropdown-item {
@@ -2068,31 +2035,55 @@
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
-  .tablet {
-    display: Initial;
+  .colorBlanco {
+    color: #FFFFFF;
   }
-  .desktop {
-    display: none !important;
+  .fondoPestaña {
+    display: block;
+    width: 100%;
+    padding: 0%;
+    text-align: center;
   }
-  .mobile {
-    display: initial;
+  .dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+  }
+  .nav {
+    background-color: #000000;
+    --bs-link-color: #FFFFFF ;
+    --bs-nav-link-hover-color: #ed1e79 ;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
-  .tablet {
-    display: Initial;
+  .mobile {
+    display: initial;
   }
   .desktop {
     display: none !important;
   }
-  .mobile {
-    display: initial;
-  }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    display: initial;
+  }
+  .mobile {
+    display: none;
+  }
+  .dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+  }
   .nav {
-    font-size: 1.2rem;
-    color: #FFFFFF;
+    background-color: #000000;
+    --bs-link-color: #FFFFFF ;
+    --bs-nav-link-hover-color: $mainRosa ;
+  }
+  .dropdown-item {
+    --bs-dropdown-link-color: $white;
+    white-space: nowrap;
   }
 }
 @media (min-width: 1201px) {
@@ -2241,43 +2232,25 @@
     height: 20%;
   }
 }
-#gridPreguntas {
-  display: grid;
-  grid-template-areas: "textoPreguntas imagenPreguntas";
-  grid-template-rows: 500fr;
-  grid-template-columns: 1fr 0.9fr;
-  margin-right: 5%;
-}
-
-#textoPreguntas {
-  grid-area: textoPreguntas;
-  padding-top: 2%;
-  margin-left: 5%;
-}
-
-#imagenPreguntas {
-  grid-area: imagenPreguntas;
-  padding-bottom: 8%;
-  padding-left: 5%;
-}
-
 .estiloPregunta {
   font-size: 1.5rem;
   font-family: "Roboto Slab", "Open Sans";
   color: #ed1e79;
+  margin-left: 3%;
+  margin-right: 4%;
 }
 
 .estiloRespuesta {
   font-family: "Roboto Slab", "Open Sans";
   font-size: 1.2rem;
   margin-bottom: 8%;
+  margin-left: 3%;
+  margin-right: 4%;
 }
 
-.divEnteroHeader {
-  width: 100%;
-  font-size: 100%;
-  text-align: center;
-  display: inline;
+.imagenPreguntas {
+  width: 90%;
+  height: auto;
 }
 
 .mobile {
@@ -2285,35 +2258,18 @@
 }
 
 @media (max-width: 600px) {
-  #gridPreguntas {
-    grid-template-columns: 1fr;
-    margin-right: 2%;
-  }
-  #textoPreguntas {
-    grid-area: textoPreguntas;
-    padding-top: 2%;
-    margin-left: 5%;
-  }
-  #imagenPreguntas {
-    grid-area: imagenPreguntas;
-    padding-bottom: 8%;
-    padding-left: 5%;
-  }
-  .agrandarMobile {
-    padding-bottom: 5%;
-    padding-top: 80%;
-  }
-  #imagenPreguntas {
-    display: none;
-  }
   .estiloPregunta {
     color: #ed1e79;
     font-family: "Roboto Slab", "Open Sans";
     font-size: 1rem;
+    margin-left: 3%;
+    margin-right: 4%;
   }
   .estiloRespuesta {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: "Roboto Slab", "Open Sans";
+    margin-left: 3%;
+    margin-right: 4%;
   }
 }
 @media (min-width: 601px) and (max-width: 642px) {
@@ -2323,40 +2279,74 @@
   .desktop {
     display: none !important;
   }
+  .dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+  }
+  .fondoPestaña {
+    display: block;
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+  }
+  .dropdown-item {
+    --bs-dropdown-link-color: #FFFFFF;
+    white-space: nowrap;
+  }
 }
-@media (min-width: 1201px) {
-  #gridPreguntas {
-    display: grid;
-    grid-template-areas: "textoPreguntas imagenPreguntas";
-    grid-template-rows: 500fr;
-    grid-template-columns: 1fr 0.9fr;
-    margin-right: 5%;
-  }
-  #textoPreguntas {
-    grid-area: textoPreguntas;
-    padding-top: 2%;
-    margin-left: 5%;
-  }
-  #imagenPreguntas {
-    grid-area: imagenPreguntas;
-    padding-bottom: 8%;
-    padding-left: 5%;
-  }
+@media (min-width: 601px) and (max-width: 768px) {
   .estiloPregunta {
-    font-size: 1.5rem;
-    font-family: "Roboto Slab", "Open Sans";
     color: #ed1e79;
-  }
-  .estiloRespuesta {
     font-family: "Roboto Slab", "Open Sans";
     font-size: 1.2rem;
-    margin-bottom: 8%;
+    margin-left: 3%;
+    margin-right: 4%;
   }
-  .divEnteroHeader {
-    width: 100%;
-    font-size: 100%;
-    text-align: center;
-    display: inline;
+  .estiloRespuesta {
+    font-size: 1rem;
+    font-family: "Roboto Slab", "Open Sans";
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+  }
+  .desktopImg {
+    display: none !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .estiloPregunta {
+    color: #ed1e79;
+    font-family: "Roboto Slab", "Open Sans";
+    font-size: 1.2rem;
+    margin-left: 3%;
+    margin-right: 4%;
+  }
+  .estiloRespuesta {
+    font-size: 1rem;
+    font-family: "Roboto Slab", "Open Sans";
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .imagenPreguntas {
+    width: 90%;
+    height: auto;
+  }
+  .estiloPregunta {
+    color: #ed1e79;
+    font-family: "Roboto Slab", "Open Sans";
+    font-size: 1.2rem;
+    margin-left: 3%;
+    margin-right: 4%;
+  }
+  .estiloRespuesta {
+    font-size: 1rem;
+    font-family: "Roboto Slab", "Open Sans";
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-bottom: 5%;
   }
 }
 @media (max-width: 600px) {

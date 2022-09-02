@@ -4,43 +4,26 @@
 @import "tamaños";
 
 
-#gridPreguntas {
-    display: grid;
-    grid-template-areas: "textoPreguntas imagenPreguntas";
-    grid-template-rows: 500fr;
-    grid-template-columns: 1fr 0.9fr;
-    margin-right: 5%;
-}
-  
-#textoPreguntas {
-    grid-area: textoPreguntas;
-    padding-top: 2%;
-    margin-left: 5%;
-}
-  
-#imagenPreguntas {
-    grid-area: imagenPreguntas;
-    padding-bottom: 8%;
-    padding-left: 5%;
-}
-
 .estiloPregunta {
     font-size: 1.5rem;
     font-family:'Roboto Slab','Open Sans';
     color:#ed1e79 ;
+    margin-left: 3%;
+    margin-right: 4%;
 }
   
 .estiloRespuesta {
     font-family: "Roboto Slab", "Open Sans";
     font-size: 1.2rem;
     margin-bottom: 8%;
+    margin-left: 3%;
+    margin-right: 4%;
 }
-  
-.divEnteroHeader {
-    width: 100%;
-    font-size: 100%;
-    text-align: center;
-    display: inline;
+
+.imagenPreguntas {
+    width: 90%;
+    height: auto;
+
 }
   
 .mobile {
@@ -49,40 +32,19 @@
 
 @media (max-width: 600px) {
 
-    #gridPreguntas {
-        grid-template-columns: 1fr;
-        margin-right: 2%;
-    }
-
-    #textoPreguntas {
-        grid-area: textoPreguntas;
-        padding-top: 2%;
-        margin-left: 5%;
-    }
-
-    #imagenPreguntas {
-        grid-area: imagenPreguntas;
-        padding-bottom: 8%;
-        padding-left: 5%;
-    }
-    .agrandarMobile {
-        padding-bottom: 5%;
-        padding-top: 80%;
-    }
-
-    #imagenPreguntas {
-        display: none;
-    }
-
     .estiloPregunta {
         color:#ed1e79 ;
         font-family:'Roboto Slab','Open Sans';
         font-size: 1rem;
+        margin-left: 3%;
+        margin-right: 4%;
     }
 
       .estiloRespuesta {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-family: "Roboto Slab", "Open Sans";
+        margin-left: 3%;
+        margin-right: 4%;
     }
 
 }
@@ -98,62 +60,91 @@
         display: none !important;
     }
 
+    .dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;
+        white-space: nowrap;
+    }
+
+    .fondoPestaña {
+        display: block;
+        width: 100%;
+        padding: 0%;
+        text-align: center;
+    }
+
+    .dropdown-item {
+        --bs-dropdown-link-color: #FFFFFF;
+        white-space: nowrap;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
 
+    .estiloPregunta {
+        color:#ed1e79 ;
+        font-family:'Roboto Slab','Open Sans';
+        font-size: 1.2rem;
+        margin-left: 3%;
+        margin-right: 4%;
+    }
+
+      .estiloRespuesta {
+        font-size: 1rem;
+        font-family: "Roboto Slab", "Open Sans";
+        margin-left: 3%;
+        margin-right: 4%;
+        margin-bottom: 5%;
+    }
+
+    .desktopImg {
+        display: none !important;
+    }
 
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
 
+    .estiloPregunta {
+        color:#ed1e79 ;
+        font-family:'Roboto Slab','Open Sans';
+        font-size: 1.2rem;
+        margin-left: 3%;
+        margin-right: 4%;
+    }
+
+      .estiloRespuesta {
+        font-size: 1rem;
+        font-family: "Roboto Slab", "Open Sans";
+        margin-left: 3%;
+        margin-right: 4%;
+        margin-bottom: 5%;
+    }
 
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
 
+    .imagenPreguntas {
+        width: 90%;
+        height: auto;
 
-}
-
-@media (min-width: 1201px) {
-
-    #gridPreguntas {
-        display: grid;
-        grid-template-areas: "textoPreguntas imagenPreguntas";
-        grid-template-rows: 500fr;
-        grid-template-columns: 1fr 0.9fr;
-        margin-right: 5%;
-    }
-      
-    #textoPreguntas {
-        grid-area: textoPreguntas;
-        padding-top: 2%;
-        margin-left: 5%;
-    }
-      
-    #imagenPreguntas {
-        grid-area: imagenPreguntas;
-        padding-bottom: 8%;
-        padding-left: 5%;
     }
     
     .estiloPregunta {
-        font-size: 1.5rem;
-        font-family:'Roboto Slab','Open Sans';
         color:#ed1e79 ;
-    }
-      
-    .estiloRespuesta {
-        font-family: "Roboto Slab", "Open Sans";
+        font-family:'Roboto Slab','Open Sans';
         font-size: 1.2rem;
-        margin-bottom: 8%;
+        margin-left: 3%;
+        margin-right: 4%;
     }
-      
-    .divEnteroHeader {
-        width: 100%;
-        font-size: 100%;
-        text-align: center;
-        display: inline;
+
+    .estiloRespuesta {
+        font-size: 1rem;
+        font-family: "Roboto Slab", "Open Sans";
+        margin-left: 3%;
+        margin-right: 4%;
+        margin-bottom: 5%;
     }
+
 
 }
