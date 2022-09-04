@@ -182,8 +182,7 @@ font-size: 130%;
   }
 
   .parrafoTexto {
-    color: #000000;
-    font-family: "Gothic A1", "Open Sans";
+    @extend %texto;
     font-size: 1rem;
     font-weight: 500;
     margin-left: 5%;

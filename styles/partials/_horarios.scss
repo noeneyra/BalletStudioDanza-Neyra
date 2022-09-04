@@ -4,39 +4,40 @@
 @import "bg";
 @import "display";
 @import "tamaños";
+@import "maps";
 
 .salon {
-    background-color: rgba(248, 182, 196, 0.7725490196);
-    color: #ed1e79;
+    background-color: map-get($estilos, bgGrilla);
+    color: map-get($estilos, mainRosa);
     font-family: "Roboto Slab", "Open Sans";
-    text-align: center;
+    text-align: map-get($estilos, textCenter);
     font-size: 2rem;
 }
   
 .dias {
-    background-color: #f8b6c4c5;
-    color: #ed1e79;
+    background-color: map-get($estilos, bgGrilla);
+    color: map-get($estilos, mainRosa);
     font-family: "Roboto Slab", "Open Sans";
-    text-align: center;
+    text-align: map-get($estilos, textCenter);
     justify-content: center;
     font-size: 2rem;
     padding: 2%;
-    border-bottom: solid 2px #ed1e79;
+    border-bottom: solid 2px map-get($estilos, mainRosa);
 }
   
 .borderRight {
-    border-right: solid 2px #ed1e79;
+    border-right: solid 2px map-get($estilos, mainRosa);
 }
   
 .borderBottom {
-    border-bottom: solid 2px #ed1e79;
+    border-bottom: solid 2px map-get($estilos, mainRosa);
 }
   
 .horarios {
-    background-color: rgba(248, 182, 196, 0.7725490196);
-    color: #ed1e79;
+    background-color: map-get($estilos, bgGrilla);
+    color: map-get($estilos, mainRosa);
     font-family: "Roboto Slab", "Open Sans";
-    text-align: center;
+    text-align: map-get($estilos, textCenter);
     font-size: 1.5rem;
     padding: 1%;
 }
@@ -44,15 +45,15 @@
 .clases {
     background-color: rgba(248, 201, 210, 0.4588235294);
     font-family: "Roboto Slab", "Open Sans";
-    color: #ed1e79;
+    color: map-get($estilos, mainRosa);
     padding: 1%;
-    text-align: center;
+    text-align: map-get($estilos, textCenter);
     font-size: 1.5rem;
     justify-content: center;
 }
   
 .contemporaneo {
-    text-align: center;
+    text-align: map-get($estilos, textCenter);
     font-size: 1.4rem;
 }
 
@@ -88,7 +89,7 @@
 @media (min-width: 601px) and (max-width: 768px) {
 
     .salon {
-        text-align: center;
+        text-align: map-get($estilos, textCenter);
         font-size: 0.8rem;
     }
 
@@ -117,7 +118,7 @@
 @media (min-width: 993px) and (max-width: 1200px) {
 
     .salon {
-        text-align: center;
+        text-align: map-get($estilos, textCenter);
         font-size: 0.8rem;
     }
 
@@ -152,7 +153,7 @@
     }
 
     .salon {
-        text-align: center;
+        text-align: map-get($estilos, textCenter);
         font-size: 1.5rem;
     }
 
