@@ -1,0 +1,6 @@
+@mixin galeria ($width, $margin-left, $transform, $margin-bottom) {
+    width: $width;
+    margin-left: $margin-left;
+    transform: $transform ;
+    margin-bottom: $margin-bottom ;
+}

@@ -27,13 +27,13 @@
 
 .buttonVerMas {
     font-size: 1rem;
-    border: solid 1px #FFFFFF;
+    border: solid 1px $white ;
     width: 35%;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     font-size: 0.8rem;
-    --bs-link-color: #FFFFFF;
-    --bs-link-hover-color: #c40055;
+    --bs-link-color: $white ;
+    --bs-link-hover-color: $mainOscuro;
 }
   
 @media (max-width: 600px) {

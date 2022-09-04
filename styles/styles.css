@@ -656,8 +656,8 @@
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
   font-size: 0.8rem;
-  --bs-link-color: #FFFFFF;
-  --bs-link-hover-color: #c40055;
+  --bs-link-color: $white ;
+  --bs-link-hover-color: $mainOscuro;
 }
 
 @media (max-width: 600px) {
@@ -868,8 +868,6 @@
 }
 
 .nombreDocente {
-  color: #ed1e79;
-  font-family: "Roboto Slab", "Open Sans";
   font-weight: 500;
   font-size: 250%;
   padding: 0%;
@@ -994,7 +992,7 @@
     text-align: start;
   }
 }
-.tituloDePestañas, .tituloIndex {
+.tituloDePestañas, .tituloIndex, .estiloPregunta, .nombreDocente {
   color: #ed1e79;
   font-family: "Roboto Slab", "Open Sans";
 }
@@ -1140,7 +1138,7 @@
     display: none !important;
   }
   .dropdown-item {
-    --bs-dropdown-link-color: #FFFFFF;
+    --bs-dropdown-link-color: $white ;
     white-space: nowrap;
   }
   .form {
@@ -2305,8 +2303,6 @@
 }
 .estiloPregunta {
   font-size: 1.5rem;
-  font-family: "Roboto Slab", "Open Sans";
-  color: #ed1e79;
   margin-left: 3%;
   margin-right: 4%;
 }
@@ -2334,8 +2330,6 @@
 
 @media (max-width: 600px) {
   .estiloPregunta {
-    color: #ed1e79;
-    font-family: "Roboto Slab", "Open Sans";
     font-size: 1rem;
     margin-left: 3%;
     margin-right: 4%;
@@ -3329,6 +3323,7 @@
     width: 60%;
     margin-left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 2%;
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -3352,9 +3347,10 @@
 @media (min-width: 1201px) {
   .tamañoGaleria {
     width: 86%;
-    height: 90%;
     margin-left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 2%;
+    height: 90%;
   }
   .marginDe {
     margin-top: 5%;

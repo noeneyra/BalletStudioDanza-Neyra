@@ -50,20 +50,23 @@
   .mobile {
     display: initial;
   }
+
   .desktop {
     display: none !important;
   }
+
   .dropdown-item {
-    --bs-dropdown-link-color: #FFFFFF;
+    --bs-dropdown-link-color: $white ;
     white-space: nowrap;
   }
 
-.form {
+  .form {
     font-weight: 800;
     font-size: 1rem;
     margin-top: 10%;
     margin-bottom: 20%;
   }
+
   .sizeInput {
     width: 2.2rem;
     padding: 0.6rem 8rem;
@@ -76,6 +79,7 @@
     box-sizing: border-box;
     margin-bottom: 2%;
   }
+
   .alineacionForm {
     margin-left: 50%;
     transform: translateX(-60%);
@@ -84,6 +88,7 @@
     justify-content: center;
     margin-top: 5%;
   }
+  
 }
 
 @media (min-width: 601px) and (max-width: 768px) {

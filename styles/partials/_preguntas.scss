@@ -6,8 +6,7 @@
 
 .estiloPregunta {
     font-size: 1.5rem;
-    font-family:'Roboto Slab','Open Sans';
-    color:#ed1e79 ;
+    @extend %tituloPestañas ;
     margin-left: 3%;
     margin-right: 4%;
 }
@@ -37,8 +36,7 @@
 @media (max-width: 600px) {
 
     .estiloPregunta {
-        color:#ed1e79 ;
-        font-family:'Roboto Slab','Open Sans';
+        @extend %tituloPestañas ;
         font-size: 1rem;
         margin-left: 3%;
         margin-right: 4%;

@@ -8,10 +8,8 @@
 @media (max-width: 600px) {
 
     .tamañoGaleria {
-        width: 80%;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: 2%;
+        @include galeria ( $width: 80%, $margin-left: 50%, $transform: translateX(-50%), $margin-bottom: 2%);
+
     }
 }
 
@@ -31,30 +29,25 @@
 @media (min-width: 601px) and (max-width: 768px) {
 
     .tamañoGaleria {
-        width: 70%;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: 2%;
-    }
+        @include galeria ( $width: 70%, $margin-left: 50%, $transform: translateX(-50%), $margin-bottom: 2%);
 
+    }
 }
+
 
 @media (min-width: 769px) and (max-width: 992px) {
 
     .tamañoGaleria {
-        width: 60%;
-        margin-left: 50%;
-        transform: translateX(-50%);
+        @include galeria ( $width: 60%, $margin-left: 50%, $transform: translateX(-50%), $margin-bottom: 2%);
+
     }
 }
+
 
 @media (min-width: 993px) and (max-width: 1200px) {
 
     .tamañoGaleria {
-        width: 80%;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        margin-bottom: 2%;
+        @include galeria ( $width: 80%, $margin-left: 50%, $transform: translateX(-50%), $margin-bottom: 2%);
 
     }
 
@@ -75,10 +68,8 @@
 @media (min-width: 1201px) {
 
     .tamañoGaleria {
-        width: 86%;
+        @include galeria ( $width: 86%, $margin-left: 50%, $transform: translateX(-50%), $margin-bottom: 2%);
         height: 90%;
-        margin-left: 50%;
-        transform: translateX(-50%);
     }
 
     .marginDe {

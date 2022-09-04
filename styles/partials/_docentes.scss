@@ -15,8 +15,7 @@
 }
     
 .nombreDocente {
-    color: #ed1e79;
-    font-family: "Roboto Slab", "Open Sans";
+    @extend %tituloPestañas;
     font-weight: 500;
     font-size: 250%;
     padding: 0%;
