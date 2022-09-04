@@ -4,6 +4,14 @@
 }
 
 %texto {
-    color: #000000;
+    color: $black;
     font-family: "Gothic A1", "Open Sans";
+}
+
+%textoDestacado {
+    color: $white;
+    font-family: "Roboto", "Open Sans";
+    font-style: normal;
+    display: flex;
+    justify-content: center;
 }
