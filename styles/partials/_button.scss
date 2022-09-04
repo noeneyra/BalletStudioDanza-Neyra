@@ -7,20 +7,20 @@
 
 
 .buttonCentrado {
-    border: 2px solid #000000;
-    border-radius: 8px;
-    padding: 10px 100px;
-    font-family: "Roboto", "Open Sans";
-    font-size: 25px;
-    margin-bottom: 5%;
-    margin-top: 8%;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: flex;
-    align-items: center;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    --bs-link-hover-color:#d3005b ;
-    --bs-link-color: #ed1e79;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  padding: 10px 100px;
+  font-family: "Roboto", "Open Sans";
+  font-size: 25px;
+  margin-bottom: 5%;
+  margin-top: 8%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  --bs-link-hover-color:#d3005b ;
+  --bs-link-color: #ed1e79;
 }
 
 @media (max-width: 600px)  {
@@ -44,8 +44,8 @@
     margin-top: 2%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
   }
 
   .buttonVerMas {

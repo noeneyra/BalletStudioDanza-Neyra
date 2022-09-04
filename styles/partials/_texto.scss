@@ -6,68 +6,7 @@
 
 
 .verMasTexto {
-    color: #000000;
-    font-family: "Gothic A1", "Open Sans";
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-}
-
-.linksVerMas {
-    font-family: "Roboto Slab", "Open Sans";
-    font-weight: 400;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 2%;
-    font-size: 1.8rem;
-    --bs-link-hover-color:#d3005b ;
-    --bs-link-color: #ed1e79;
-}
-
-
-.tituloIndex {
-  color: #ed1e79;
-  font-size: 600%;
-  font-family: "Roboto Slab", "Open Sans";
-  font-weight: 900;
-  padding-left: 5%;
-}
-
-.subtituloIndex {
-  font-family: "Roboto Slab", serif, "Open Sans";
-  font-size: 250%;
-  font-weight: 400;
-  line-height: 40px;
-  padding-left: 5%;
-}
-
-.indexCuerpoTexto {
-    background-color: rgba(237, 30, 120, 0.1764705882);
-    width: 100%;
-    padding-top: 0.5%;
-    padding-bottom: 5%;
-}
-
-.indexTitulo {
-    color: #ed1e79;
-    font-family: "Abhaya Libre", "Open Sans";
-    font-weight: 900;
-    font-size: 80px;
-    text-align: center;
-}
-  
-.parrafoTexto {
-    color: #000000;
-    font-family: "Gothic A1", "Open Sans";
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    margin: 0% 2%;
-}
-
-.verMasTexto {
-  color: #000000;
-  font-family: "Gothic A1", "Open Sans";
+  @extend %texto;
   font-size: 25px;
   font-weight: 500;
   text-align: center;
@@ -86,9 +25,65 @@
 
 
 .tituloIndex {
+  @extend %tituloPestañas;
+  font-size: 6rem;
+  font-weight: 900;
+  padding-left: 5%;
+}
+
+.subtituloIndex {
+  font-family: "Roboto Slab", serif, "Open Sans";
+  font-size: 250%;
+  font-weight: 400;
+  line-height: 40px;
+  padding-left: 5%;
+}
+
+.indexCuerpoTexto {
+  background-color: rgba(237, 30, 120, 0.1764705882);
+  width: 100%;
+  padding-top: 0.5%;
+  padding-bottom: 5%;
+}
+
+.indexTitulo {
   color: #ed1e79;
-  font-size: 600%;
+  font-family: "Abhaya Libre", "Open Sans";
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+}
+  
+.parrafoTexto {
+  @extend %texto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 0% 2%;
+}
+
+.verMasTexto {
+  @extend %texto;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.linksVerMas {
   font-family: "Roboto Slab", "Open Sans";
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 2%;
+  font-size: 1.8rem;
+  --bs-link-hover-color:#d3005b ;
+  --bs-link-color: #ed1e79;
+}
+
+
+.tituloIndex {
+  @extend %tituloPestañas;
+  font-size: 6rem;
   font-weight: 900;
   padding-left: 5%;
 }
@@ -118,8 +113,7 @@
 }
 
 .parrafoTexto {
-  color: #000000;
-  font-family: "Gothic A1", "Open Sans";
+  @extend %texto;
   font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
@@ -127,13 +121,12 @@
 }
 
 .tituloDePestañas {
-    color: #ed1e79;
-    font-family: "Roboto Slab", "Open Sans";
-    font-weight: 800;
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 2%;
-    margin-bottom: 2%;
+  @extend %tituloPestañas;
+  font-weight: 800;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 
