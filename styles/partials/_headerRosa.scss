@@ -41,13 +41,6 @@
     padding-bottom: 2%;
   }
 
-  .conteiner {
-    width: 100%;
-  }
-
-  .tamañoConteiner {
-    height: 200px;
-  }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
@@ -67,11 +60,6 @@
     width: 35%;
     padding-bottom: 0%;
   }
-
-  .tamañoConteiner {
-    height: 400px;
-  }
-
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -92,9 +80,6 @@
     padding-bottom: 2%;
   }
   
-  .tamañoConteiner {
-    height: 400px;
-  }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -117,9 +102,6 @@
     padding-bottom: 1%;
   }
 
-  .tamañoConteiner {
-    height: 600px;
-  }
 }
 
 @media (min-width: 1201px) {
@@ -140,8 +122,5 @@
   }
   .nav {
     font-size: 1.5rem;
-  }
-  .tamañoConteiner {
-    height: 600px;
   }
 }

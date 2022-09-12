@@ -23,6 +23,18 @@
   --bs-link-color: #ed1e79;
 }
 
+.buttonVerMas {
+  font-size: 1.5rem;
+  --bs-link-color: $white;
+  --bs-link-hover-color: $mainOscuro;
+  text-decoration: none;
+    :hover {
+        color: $mainOscuro ;
+    }
+  
+}
+
+
 @media (max-width: 600px)  {
 
   .mobile {
@@ -49,32 +61,30 @@
   }
 
   .buttonVerMas {
-    border: solid 1px #FFFFFF;
-    width: 35%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
     font-size: 0.8rem;
-    --bs-link-color: #FFFFFF;
-    --bs-link-hover-color: #c40055;
-  }    
+    --bs-link-color: $white ;
+  --bs-link-hover-color: $mainOscuro !important ;
+  }  
+
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
 
-    .buttonVerMas {
-        font-size: 1.2rem;
-        border: solid 1px #FFFFFF;
-      }
+  .buttonVerMas {
+    font-size: 1.2rem;
+    --bs-link-color: $white ;
+    --bs-link-hover-color: $mainOscuro !important ;
+  } 
 
-      .buttonCentrado {
-        font-size: 1.2rem;
-        margin-bottom: 8%;
-        margin-top: 2%;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-      }
+  .buttonCentrado {
+    font-size: 1.2rem;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -98,6 +108,12 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .buttonVerMas {
+    font-size: 1.2rem;
+    --bs-link-color: $white ;
+    --bs-link-hover-color: $mainOscuro !important ;
+  }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -111,6 +127,12 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .buttonVerMas {
+    font-size: 1.5rem;
+    --bs-link-color: $white ;
+    --bs-link-hover-color: $mainOscuro !important ;
+  } 
 }
 
 @media (min-width: 1201px) {
@@ -125,6 +147,5 @@
     padding-right: 1.5rem;
   }
 
-  
 }
 

@@ -128,7 +128,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -266,6 +265,16 @@
   --bs-link-color: #ed1e79;
 }
 
+.buttonVerMas {
+  font-size: 1.5rem;
+  --bs-link-color: $white;
+  --bs-link-hover-color: $mainOscuro;
+  text-decoration: none;
+}
+.buttonVerMas :hover {
+  color: #c40055;
+}
+
 @media (max-width: 600px) {
   .mobile {
     display: initial;
@@ -287,19 +296,16 @@
     padding-right: 1.2rem;
   }
   .buttonVerMas {
-    border: solid 1px #FFFFFF;
-    width: 35%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
     font-size: 0.8rem;
-    --bs-link-color: #FFFFFF;
-    --bs-link-hover-color: #c40055;
+    --bs-link-color: $white ;
+    --bs-link-hover-color: $mainOscuro !important ;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
   .buttonVerMas {
     font-size: 1.2rem;
-    border: solid 1px #FFFFFF;
+    --bs-link-color: $white ;
+    --bs-link-hover-color: $mainOscuro !important ;
   }
   .buttonCentrado {
     font-size: 1.2rem;
@@ -330,6 +336,11 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+  .buttonVerMas {
+    font-size: 1.2rem;
+    --bs-link-color: $white ;
+    --bs-link-hover-color: $mainOscuro !important ;
+  }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
   .buttonCentrado {
@@ -340,6 +351,11 @@
     padding-bottom: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+  .buttonVerMas {
+    font-size: 1.5rem;
+    --bs-link-color: $white ;
+    --bs-link-hover-color: $mainOscuro !important ;
   }
 }
 @media (min-width: 1201px) {
@@ -362,7 +378,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -509,7 +524,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -644,20 +658,9 @@
 }
 
 .textoDestacado {
-  padding-top: 2%;
+  padding-top: 1%;
   padding-bottom: 1%;
   font-weight: bold;
-}
-
-.buttonVerMas {
-  font-size: 1rem;
-  border: solid 1px #FFFFFF;
-  width: 35%;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  font-size: 0.8rem;
-  --bs-link-color: $white ;
-  --bs-link-hover-color: $mainOscuro;
 }
 
 @media (max-width: 600px) {
@@ -672,15 +675,13 @@
     white-space: nowrap;
   }
   .tamañoConteiner {
-    height: 300px;
+    height: 500px;
   }
   .textoDestacado {
     color: #FFFFFF;
     font-size: 1.5rem;
     font-family: "Roboto", "Open Sans";
     font-style: normal;
-    padding-top: 2%;
-    padding-bottom: 3%;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -688,8 +689,10 @@
 }
 @media (min-width: 601px) and (max-width: 768px) {
   .textoDestacado {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -712,7 +715,7 @@
 }
 @media (min-width: 993px) and (max-width: 1200px) {
   .tamañoConteiner {
-    height: 600px;
+    height: 100px;
   }
   .textoDestacado {
     font-size: 3rem;
@@ -737,7 +740,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -895,9 +897,8 @@
   }
   .textoDocente {
     font-size: 0.8rem;
-    margin-bottom: 2%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
   }
 }
 @media (min-width: 601px) and (max-width: 768px) {
@@ -1299,7 +1300,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -1433,7 +1433,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -1589,12 +1588,6 @@
     width: 50%;
     padding-bottom: 2%;
   }
-  .conteiner {
-    width: 100%;
-  }
-  .tamañoConteiner {
-    height: 200px;
-  }
 }
 @media (min-width: 601px) and (max-width: 768px) {
   .headerFrase {
@@ -1610,9 +1603,6 @@
     height: 65%;
     width: 35%;
     padding-bottom: 0%;
-  }
-  .tamañoConteiner {
-    height: 400px;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -1630,9 +1620,6 @@
     padding-top: 2%;
     padding-bottom: 2%;
   }
-  .tamañoConteiner {
-    height: 400px;
-  }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
   .tamañoLogo {
@@ -1649,9 +1636,6 @@
     text-align: center;
     padding-top: 1.5%;
     padding-bottom: 1%;
-  }
-  .tamañoConteiner {
-    height: 600px;
   }
 }
 @media (min-width: 1201px) {
@@ -1672,9 +1656,6 @@
   .nav {
     font-size: 1.5rem;
   }
-  .tamañoConteiner {
-    height: 600px;
-  }
 }
 @media (max-width: 600px) {
   .tamanoClases {
@@ -1685,7 +1666,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -1943,7 +1923,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -2180,7 +2159,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -2427,7 +2405,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -2557,7 +2534,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
@@ -2942,10 +2918,6 @@
     font-size: 2rem;
     padding-bottom: 2%;
   }
-  .buttonVerMas {
-    font-size: 1.2rem;
-    border: solid 1px #FFFFFF;
-  }
   .tituloIndex {
     font-size: 3rem;
     margin-top: 5%;
@@ -3007,13 +2979,6 @@
   .textoDestacado {
     font-size: 3rem;
     padding-bottom: 2%;
-  }
-  .buttonVerMas {
-    font-size: 1.5rem;
-    border: solid 1px #FFFFFF;
-    width: 20%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
   .tituloIndex {
     font-size: 3.5rem;
@@ -3090,13 +3055,6 @@
     font-size: 3rem;
     padding-bottom: 2%;
   }
-  .buttonVerMas {
-    font-size: 1.5rem;
-    border: solid 1px #FFFFFF;
-    width: 20%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
   .tituloIndex {
     font-family: "Roboto Slab", "Open Sans";
     font-weight: 900;
@@ -3170,7 +3128,6 @@
   .tamanoClases {
     width: 22%;
     padding-top: 12%;
-    padding-top: 3%;
     margin-top: 8%;
   }
   .comunicacion {
