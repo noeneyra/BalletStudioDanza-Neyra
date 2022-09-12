@@ -3,16 +3,15 @@ $nowrap: nowrap ;
 
 @media (max-width: 600px) {
 
-    .tamañoClases {
+    .tamanoClases {
         width: 75%;
         margin-left: 50%;
         transform: translateX(-50%);
     }
 
-    .tamañoIconos {
+    .tamanoClases {
         width: 22%;
         padding-top: 12%;
-        padding-top: 3%;
         margin-top: 8%;
     }
 
@@ -36,13 +35,13 @@ $nowrap: nowrap ;
 
 @media (min-width: 601px) and (max-width: 768px)  {
 
-    .tamañoClases {
+    .tamanoClases {
         width: 80%;
         margin-left: 50%;
         transform: translateX(-50%);
     }
 
-    .tamañoIconos {
+    .tamanoClases {
         width: 15%;
         padding-top: 4%;
     }
@@ -68,13 +67,13 @@ $nowrap: nowrap ;
         display: initial;
     }
 
-    .tamañoClases {
+    .tamanoClases {
         width: 80%;
         margin-left: 50%;
         transform: translateX(-50%);
     }
 
-    .tamañoIconos {
+    .tamanoClases {
         width: 15%;
         padding-top: 4%;
     }
@@ -90,7 +89,7 @@ $nowrap: nowrap ;
 
 @media (min-width: 993px) and (max-width: 1200px) {
 
-    .tamañoClases {
+    .tamanoClases {
         width: 90%;
         margin-left: 50%;
         transform: translateX(-50%);
@@ -113,7 +112,7 @@ $nowrap: nowrap ;
     }
       
 
-    .tamañoIconos {
+    .tamanoClases {
         width: 10%;
         padding-top: 4%;
     }
@@ -135,7 +134,7 @@ $nowrap: nowrap ;
 
 @media (min-width: 1201px) {
 
-    .tamañoClases {
+    .tamanoClases {
         width: 90%;
         margin-left: 50%;
         transform: translateX(-50%);
@@ -149,7 +148,7 @@ $nowrap: nowrap ;
         width: 68%;
     }
     
-    .tamañoIconos {
+    .tamanoClases {
         width: 5%;
         padding-top: 3%;
     }

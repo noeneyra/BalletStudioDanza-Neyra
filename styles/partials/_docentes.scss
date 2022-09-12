@@ -15,7 +15,7 @@
 }
     
 .nombreDocente {
-    @extend %tituloPestañas;
+    @extend %tituloPestanas;
     font-weight: 500;
     font-size: 250%;
     padding: 0%;
@@ -48,9 +48,8 @@
 
     .textoDocente {
         font-size: 0.8rem;
-        margin-bottom: 2%;
         text-align: center;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
 }
 

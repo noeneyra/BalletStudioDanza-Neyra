@@ -6,7 +6,7 @@
 
 .estiloPregunta {
     font-size: 1.5rem;
-    @extend %tituloPestañas ;
+    @extend %tituloPestanas ;
     margin-left: 3%;
     margin-right: 4%;
 }
@@ -36,7 +36,7 @@
 @media (max-width: 600px) {
 
     .estiloPregunta {
-        @extend %tituloPestañas ;
+        @extend %tituloPestanas ;
         font-size: 1rem;
         margin-left: 3%;
         margin-right: 4%;
