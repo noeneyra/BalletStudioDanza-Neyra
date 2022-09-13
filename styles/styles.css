@@ -243,6 +243,10 @@
     width: 20%;
     height: 20%;
   }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
+  }
 }
 .buttonCentrado {
   border: 2px solid #000000;
@@ -489,6 +493,10 @@
     width: 20%;
     height: 20%;
   }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
+  }
 }
 .interlineadoIconos {
   padding-top: 22%;
@@ -630,6 +638,10 @@
     margin-top: 0%;
     width: 20%;
     height: 20%;
+  }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
   }
 }
 .bgBanner {
@@ -842,6 +854,10 @@
     margin-top: 0%;
     width: 20%;
     height: 20%;
+  }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
   }
 }
 .bgDocentes {
@@ -1399,6 +1415,10 @@
     width: 20%;
     height: 20%;
   }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
+  }
 }
 .gradienteVerticalRosa {
   background-image: linear-gradient(to right, #FFFFFF, rgba(237, 30, 120, 0.1450980392));
@@ -1527,6 +1547,10 @@
     margin-top: 0%;
     width: 20%;
     height: 20%;
+  }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
   }
 }
 .bgRosa {
@@ -1756,6 +1780,10 @@
     margin-top: 0%;
     width: 20%;
     height: 20%;
+  }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
   }
 }
 .salon {
@@ -2010,6 +2038,10 @@
     width: 20%;
     height: 20%;
   }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
+  }
 }
 .dropdown-item {
   --bs-dropdown-link-color: #FFFFFF;
@@ -2241,6 +2273,10 @@
     margin-top: 0%;
     width: 20%;
     height: 20%;
+  }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
   }
 }
 .estiloPregunta {
@@ -2484,6 +2520,10 @@
     width: 20%;
     height: 20%;
   }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
+  }
 }
 @media (max-width: 600px) {
   .tamanoClases {
@@ -2608,6 +2648,10 @@
     margin-top: 0%;
     width: 20%;
     height: 20%;
+  }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
   }
 }
 .verMasTexto {
@@ -3198,6 +3242,10 @@
     margin-top: 0%;
     width: 20%;
     height: 20%;
+  }
+  .iconos {
+    width: 5%;
+    margin-top: 2%;
   }
 }
 @media (max-width: 600px) {
